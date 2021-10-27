@@ -2,47 +2,47 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>dark on After Dark</title>
-    <link>https://mfuchs1.github.io/after-dark/tags/dark/</link>
+    <link>https://greatsilence.github.io/tags/dark/</link>
     <description>Recent content in dark on After Dark</description>
     <image>
       <title>dark on After Dark</title>
-      <link>https://mfuchs1.github.io/after-dark/tags/dark/</link>
+      <link>https://greatsilence.github.io/tags/dark/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.88.1)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 27 Oct 2021 11:35:50 UT</lastBuildDate>
-    <atom:link href="https://mfuchs1.github.io/after-dark/tags/dark/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Oct 2021 15:32:41 UT</lastBuildDate>
+    <atom:link href="https://greatsilence.github.io/tags/dark/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mein Zweiter Eintrag</title>
-      <link>https://mfuchs1.github.io/after-dark/post/mein-zweiter-eintrag/</link>
+      <link>https://greatsilence.github.io/post/mein-zweiter-eintrag/</link>
       <pubDate>Tue, 26 Oct 2021 08:21:26 UT</pubDate>
       <dc:creator>Matthias Fuchs</dc:creator>
-      <guid>https://mfuchs1.github.io/after-dark/post/mein-zweiter-eintrag/</guid>
+      <guid>https://greatsilence.github.io/post/mein-zweiter-eintrag/</guid>
       <description>Dies ist mein zweiter Eintrag. Gerade habe ich etwas entdeckt, das mich mit &amp;lsquo;After Dark&amp;rsquo; weiterbringt: im &amp;lsquo;Header&amp;rsquo; des posts habe ich die Zeile &amp;lsquo;draft = true&amp;rsquo; gelöscht. Damit wurden alle posts nach public/ kopiert.
 Mit diesem post probiere ich was Neues - ich werde nochmals &amp;lsquo;hugo&amp;rsquo; laufen lassen. Ich bin gespannt, was passiert.
 Nationalfeiertag Ein wunderschöner Tag - prachtvolles Wetter. Nach dem Mittagessen waren wir im Wald hinter dem Haus spazieren.</description>
-      <category domain="https://mfuchs1.github.io/categories/hacking">Hacking</category>
+      <category domain="https://greatsilence.github.io/categories/hacking">Hacking</category>
       <content:encoded><![CDATA[Dies ist mein zweiter Eintrag. Gerade habe ich etwas entdeckt, das mich mit &amp;lsquo;After Dark&amp;rsquo; weiterbringt: im &amp;lsquo;Header&amp;rsquo; des posts habe ich die Zeile &amp;lsquo;draft = true&amp;rsquo; gelöscht. Damit wurden alle posts nach public/ kopiert.
 Mit diesem post probiere ich was Neues - ich werde nochmals &amp;lsquo;hugo&amp;rsquo; laufen lassen. Ich bin gespannt, was passiert.
 Nationalfeiertag Ein wunderschöner Tag - prachtvolles Wetter. Nach dem Mittagessen waren wir im Wald hinter dem Haus spazieren. Die Farbenpracht der Bäume ist atemberaubend. Anschließend war ich mit den Kindern noch beim Skaterpark - leider war er geschlossen; der Pumptrack ist noch nicht fertig. Ich kann mir gut vorstellen, dass die Jugendlichen hier ein tolles Sport-Paradies vorfinden werden.
 Wie fügt man ein Bild ein?
-Das ist ein schönes Foto von Grödig.
+Das ist ein schönes Foto von Grödig. Jetzt habe ich zwei Repos auf Github - so ganz durchschaue ich das nicht. Dieser Text ist ein Test, ob der Workflow überhaupt klappt. Ich schreibe an diesem Text weiter - warum wird der Text nicht veröffentlicht?
 Thank you for choosing After Dark.
 ]]></content:encoded>
     </item>
     <item>
       <title>Mein Erster Eintrag</title>
-      <link>https://mfuchs1.github.io/after-dark/post/mein-erster-eintrag/</link>
+      <link>https://greatsilence.github.io/post/mein-erster-eintrag/</link>
       <pubDate>Mon, 25 Oct 2021 22:12:39 UT</pubDate>
       <dc:creator>Matthias Fuchs</dc:creator>
-      <guid>https://mfuchs1.github.io/after-dark/post/mein-erster-eintrag/</guid>
+      <guid>https://greatsilence.github.io/post/mein-erster-eintrag/</guid>
       <description>Seit gestern (24.10.2021) lebt eine neue Mitbrwohnerin bei uns: Nina, eine kleine schwarze Katze. Beli hat sie uns geschenkt.
 Die Katze hat durch ihre Gegenwart bereits unsere Familie verändert - wir sind ruhiger geworden.
 Seit gestern beschäftige ich mich After Dark - der Blog schaut super schön aus. Derzeit läuft der Blog nur lokal. Wie ich diesen Blog auf einer Website publizieren kann, habe ich noch nicht ganz verstanden. Mit HUGO könnte ich es auf Seiten wie Github oder Gitlab (Kosten) probieren.</description>
-      <category domain="https://mfuchs1.github.io/categories/hacking">Hacking</category>
+      <category domain="https://greatsilence.github.io/categories/hacking">Hacking</category>
       <content:encoded><![CDATA[Seit gestern (24.10.2021) lebt eine neue Mitbrwohnerin bei uns: Nina, eine kleine schwarze Katze. Beli hat sie uns geschenkt.
 Die Katze hat durch ihre Gegenwart bereits unsere Familie verändert - wir sind ruhiger geworden.
 Seit gestern beschäftige ich mich After Dark - der Blog schaut super schön aus. Derzeit läuft der Blog nur lokal. Wie ich diesen Blog auf einer Website publizieren kann, habe ich noch nicht ganz verstanden. Mit HUGO könnte ich es auf Seiten wie Github oder Gitlab (Kosten) probieren.
@@ -56,16 +56,16 @@ Ein Code Block
     </item>
     <item>
       <title>Totally Twisted</title>
-      <link>https://mfuchs1.github.io/after-dark/post/totally-twisted/</link>
+      <link>https://greatsilence.github.io/post/totally-twisted/</link>
       <pubDate>Mon, 25 Oct 2021 22:12:09 UT</pubDate>
       <dc:creator>Matthias Fuchs</dc:creator>
-      <guid>https://mfuchs1.github.io/after-dark/post/totally-twisted/</guid>
+      <guid>https://greatsilence.github.io/post/totally-twisted/</guid>
       <description>erste Überschrift mit einem Text
 noch eine Überschrift mit Text.
 ein Unterpunkt und sein Text.
 Schlusspunkt und aus.
 Thank you for choosing After Dark.</description>
-      <category domain="https://mfuchs1.github.io/categories/hacking">Hacking</category>
+      <category domain="https://greatsilence.github.io/categories/hacking">Hacking</category>
       <content:encoded><![CDATA[erste Überschrift mit einem Text
 noch eine Überschrift mit Text.
 ein Unterpunkt und sein Text.
@@ -75,17 +75,17 @@ Thank you for choosing After Dark.
     </item>
     <item>
       <title>Welcome</title>
-      <link>https://mfuchs1.github.io/after-dark/post/welcome/</link>
+      <link>https://greatsilence.github.io/post/welcome/</link>
       <pubDate>Mon, 25 Oct 2021 22:08:21 UT</pubDate>
       <dc:creator>Matthias Fuchs</dc:creator>
-      <guid>https://mfuchs1.github.io/after-dark/post/welcome/</guid>
+      <guid>https://greatsilence.github.io/post/welcome/</guid>
       <description>Before continuing please create a post archetype. Archetypes are located within markdown files in the archetypes directory of your site:
 flying-toasters ├── archetypes │ ├── default.md │ └── post.md ├── content If post.md does not exist yet, copy it from the After Dark default:
 $ cd flying-toasters $ cp themes/after-dark/archetypes/post.md archetypes/ Make some changes to post.md then use hugo new to draft a new post:
 $ vi archetypes/post.md # or vim, emacs, nano ... $ hugo new post/totally-twisted.md If hugo server is running with the --navigateToChanged flag your new post will appear automatically in JavaScript-enabled browsers. If you see an empty page you probably need to restart hugo server with the --buildDrafts flag.
 Use archetypes to maintain consistency when creating content for Custom Layouts. Like custom layouts Hugo Archetypes may contain templating logic.
 </description>
-      <category domain="https://mfuchs1.github.io/categories/hacking">Hacking</category>
+      <category domain="https://greatsilence.github.io/categories/hacking">Hacking</category>
       <content:encoded><![CDATA[Before continuing please create a post archetype. Archetypes are located within markdown files in the archetypes directory of your site:
 flying-toasters ├── archetypes │ ├── default.md │ └── post.md ├── content If post.md does not exist yet, copy it from the After Dark default:
 $ cd flying-toasters $ cp themes/after-dark/archetypes/post.md archetypes/ Make some changes to post.md then use hugo new to draft a new post:

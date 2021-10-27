@@ -2,18 +2,18 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Search on After Dark</title>
-    <link>https://mfuchs1.github.io/after-dark/search/</link>
+    <link>https://greatsilence.github.io/search/</link>
     <description>Recent content in Search on After Dark</description>
     <image>
       <title>Search on After Dark</title>
-      <link>https://mfuchs1.github.io/after-dark/search/</link>
+      <link>https://greatsilence.github.io/search/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.88.1)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 27 Oct 2021 11:35:50 UT</lastBuildDate>
-    <atom:link href="https://mfuchs1.github.io/after-dark/search/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Oct 2021 15:32:41 UT</lastBuildDate>
+    <atom:link href="https://greatsilence.github.io/search/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
