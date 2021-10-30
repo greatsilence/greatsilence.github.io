@@ -227,7 +227,7 @@ a[itemprop="url"]:hover {
     <meta itemprop="name" content="Posting Hugo Github">
 <meta itemprop="description" content="This text was generated using the After Dark post archetype."><meta itemprop="datePublished" content="2021-10-27T20:10:09+02:00" />
 <meta itemprop="dateModified" content="2021-10-27T20:10:09+02:00" />
-<meta itemprop="wordCount" content="148"><meta itemprop="image" content="https://source.unsplash.com/collection/983219/1600x900">
+<meta itemprop="wordCount" content="241"><meta itemprop="image" content="https://source.unsplash.com/collection/983219/1600x900">
 <meta itemprop="keywords" content="after,dark," />
     <header>
       <h1 itemprop="headline name">Posting Hugo Github</h1>
@@ -236,7 +236,7 @@ a[itemprop="url"]:hover {
   <circle cx="16" cy="16" r="14" />
   <path d="M16 8 L16 16 20 20" />
 </svg>
-<span>1 minute read</span>
+<span>2 minute read</span>
 <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
 </svg>
@@ -262,12 +262,14 @@ a[itemprop="url"]:hover {
 <ul>
 <li>Zuerst After-Dark und Hugo installieren.</li>
 <li>Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &hellip;).</li>
-<li>Das Repo für den Blog-Inhalt muss den Namen <Benutzername>.github.io besitzen. Hier lade ich per Git den Inhalt des public Verzeichnisses hoch.</li>
-<li>Das andere Repo trägt einen anderen Namen. Dorthin kommt das Eltern-Verzeichnis von public.</li>
+<li>Das Repo für den Blog-Inhalt <strong>muss</strong> den Namen USER.github.io besitzen. Hier lade ich per Git den Inhalt des public Verzeichnisses hoch. Da auf meinem ersten Account bereits ein Repo mit diesem USER Namen besteht 
+<a  target="_blank" rel="external noopener" href="https://mfuchs1.github.io/">the lion blog</a>, musste ich einen zweiten Account extra für diese Website anlegen (und dazu eine andere Email-Adresse verwenden).</li>
+<li>Das zweite Repo kann einen beliebigen Namen tragen. Besser wäre es allerdings, eine Bezeichnung mit <code>source</code> oder <code>Hugo</code> zu verwenden (damit man erkennt, wozu dieses Repo dient). Dorthin kommt das Eltern-Verzeichnis von public.</li>
 <li>Jetzt kommt der &lsquo;tricky part&rsquo;: Das public-Verzeichnis wird per submodule mit dem Eltern-Verzeichnis verbunden.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">git submodule add -b main -f https://github.com/greatsilence/greatsilence.github.io.git public 
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">git submodule add -b main -f https://github.com/USER/USER.github.io.git public 
 </code></pre></div><ul>
+<li>Eine kleine, aber wichtige Info: ich habe bemerkt, dass man - nach dem Erstellen eines Repos - besser nicht im Webbrowser die <code>Back</code>-Buttons benutzen soll, um zurück zu gehen. Dies macht (fast) alle bisherigen Einstellungen rückgängig. Also: einfach den Tab schließen.</li>
 <li>Ab jetzt muss ich beide Repos bei jeder Änderung mit git &lsquo;bearbeiten&rsquo;.</li>
 <li>Voilà!</li>
 </ul>
@@ -294,7 +296,7 @@ a[itemprop="url"]:hover {
   
     and tagged <a rel="tag" href="/tags/after/">after</a> and <a rel="tag" href="/tags/dark/">dark</a>
   
-  using <span itemprop="wordCount">148</span> words.
+  using <span itemprop="wordCount">241</span> words.
 </p>
 
       
