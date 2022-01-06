@@ -10,11 +10,27 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.88.1)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.91.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sat, 30 Oct 2021 21:58:08 UT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jan 2022 23:54:19 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Philosophy</title>
+      <link>https://greatsilence.github.io/categories/philosophy/</link>
+      <dc:creator>Matthias Fuchs</dc:creator>
+      <guid>https://greatsilence.github.io/categories/philosophy/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Theology</title>
+      <link>https://greatsilence.github.io/categories/theology/</link>
+      <dc:creator>Matthias Fuchs</dc:creator>
+      <guid>https://greatsilence.github.io/categories/theology/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
     <item>
       <title>hacking</title>
       <link>https://greatsilence.github.io/categories/hacking/</link>
