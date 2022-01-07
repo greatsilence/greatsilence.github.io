@@ -227,7 +227,7 @@ a[itemprop="url"]:hover {
     <meta itemprop="name" content="Posting Hugo Github">
 <meta itemprop="description" content="This text was generated using the After Dark post archetype."><meta itemprop="datePublished" content="2021-10-27T20:10:09+02:00" />
 <meta itemprop="dateModified" content="2021-10-27T20:10:09+02:00" />
-<meta itemprop="wordCount" content="241"><meta itemprop="image" content="https://source.unsplash.com/collection/983219/1600x900">
+<meta itemprop="wordCount" content="263"><meta itemprop="image" content="https://source.unsplash.com/collection/983219/1600x900">
 <meta itemprop="keywords" content="after,dark," />
     <header>
       <h1 itemprop="headline name">Posting Hugo Github</h1>
@@ -271,6 +271,15 @@ a[itemprop="url"]:hover {
 </code></pre></div><ul>
 <li>Eine kleine, aber wichtige Info: ich habe bemerkt, dass man - nach dem Erstellen eines Repos - besser nicht im Webbrowser die <code>Back</code>-Buttons benutzen soll, um zurück zu gehen. Dies macht (fast) alle bisherigen Einstellungen rückgängig. Also: einfach den Tab schließen.</li>
 <li>Ab jetzt muss ich beide Repos bei jeder Änderung mit git &lsquo;bearbeiten&rsquo;.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">hugo new post/&lt;Name_des_posts&gt;.md
+hugo server -D
+Crtl-C 
+hugo 
+git add .
+git commit -m <span class="s2">&#34;einen commit schreiben&#34;</span>
+git push -u origin main
+</code></pre></div><ul>
 <li>Voilà!</li>
 </ul>
 <p>Zum Schluss noch ein Bild von einem Löwen:</p>
@@ -296,7 +305,7 @@ a[itemprop="url"]:hover {
   
     and tagged <a rel="tag" href="/tags/after/">after</a> and <a rel="tag" href="/tags/dark/">dark</a>
   
-  using <span itemprop="wordCount">241</span> words.
+  using <span itemprop="wordCount">263</span> words.
 </p>
 
       
