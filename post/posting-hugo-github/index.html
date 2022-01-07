@@ -227,7 +227,7 @@ a[itemprop="url"]:hover {
     <meta itemprop="name" content="Posting Hugo Github">
 <meta itemprop="description" content="This text was generated using the After Dark post archetype."><meta itemprop="datePublished" content="2021-10-27T20:10:09+02:00" />
 <meta itemprop="dateModified" content="2021-10-27T20:10:09+02:00" />
-<meta itemprop="wordCount" content="263"><meta itemprop="image" content="https://source.unsplash.com/collection/983219/1600x900">
+<meta itemprop="wordCount" content="295"><meta itemprop="image" content="https://source.unsplash.com/collection/983219/1600x900">
 <meta itemprop="keywords" content="after,dark," />
     <header>
       <h1 itemprop="headline name">Posting Hugo Github</h1>
@@ -267,18 +267,18 @@ a[itemprop="url"]:hover {
 <li>Das zweite Repo kann einen beliebigen Namen tragen. Besser wäre es allerdings, eine Bezeichnung mit <code>source</code> oder <code>Hugo</code> zu verwenden (damit man erkennt, wozu dieses Repo dient). Dorthin kommt das Eltern-Verzeichnis von public.</li>
 <li>Jetzt kommt der &lsquo;tricky part&rsquo;: Das public-Verzeichnis wird per submodule mit dem Eltern-Verzeichnis verbunden.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">git submodule add -b main -f https://github.com/USER/USER.github.io.git public 
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git submodule add -b main -f https://github.com/USER/USER.github.io.git public 
 </code></pre></div><ul>
 <li>Eine kleine, aber wichtige Info: ich habe bemerkt, dass man - nach dem Erstellen eines Repos - besser nicht im Webbrowser die <code>Back</code>-Buttons benutzen soll, um zurück zu gehen. Dies macht (fast) alle bisherigen Einstellungen rückgängig. Also: einfach den Tab schließen.</li>
 <li>Ab jetzt muss ich beide Repos bei jeder Änderung mit git &lsquo;bearbeiten&rsquo;.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">hugo new post/&lt;Name_des_posts&gt;.md
-hugo server -D
-Crtl-C 
-hugo 
-git add .
-git commit -m <span class="s2">&#34;einen commit schreiben&#34;</span>
-git push -u origin main
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>hugo new post/&lt;Name_des_posts&gt;.md   	<span class="c1">## mit Editor bearbeiten (draft auf &#39;false&#39; setzen</span>
+<span class="gp">$ </span>hugo server -D			<span class="c1">## Kontrolle; startet lokalen Server</span>
+<span class="gp">$ </span>Crtl-C 				<span class="c1">## lokalen Server beenden</span>
+<span class="gp">$ </span>hugo 					<span class="c1">## Website in /public erstellen</span>
+<span class="gp">$ </span>git add .				<span class="c1">## git-Befehle </span>
+<span class="gp">$ </span>git commit -m <span class="s2">&#34;einen commit schreiben&#34;</span>
+<span class="gp">$ </span>git push -u origin main
 </code></pre></div><ul>
 <li>Voilà!</li>
 </ul>
@@ -305,7 +305,7 @@ git push -u origin main
   
     and tagged <a rel="tag" href="/tags/after/">after</a> and <a rel="tag" href="/tags/dark/">dark</a>
   
-  using <span itemprop="wordCount">263</span> words.
+  using <span itemprop="wordCount">295</span> words.
 </p>
 
       
