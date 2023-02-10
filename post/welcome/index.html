@@ -24,7 +24,6 @@
 <meta property="article:published_time" content="2021-10-26T00:08:21+02:00" />
 <meta property="article:modified_time" content="2021-10-26T00:08:21+02:00" />
 
-
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://source.unsplash.com/collection/983219/1600x900"/>
 
@@ -263,12 +262,12 @@ a[itemprop="url"]:hover {
 │   └── post.md
 ├── content
 </code></pre><p>If <code>post.md</code> does not exist yet, copy it from the After Dark default:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">$ <span class="nb">cd</span> flying-toasters
-$ cp themes/after-dark/archetypes/post.md archetypes/
-</code></pre></div><p>Make some changes to <code>post.md</code> then use <code>hugo new</code> to draft a new post:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">$ vi archetypes/post.md <span class="c1"># or vim, emacs, nano ...</span>
-$ hugo new post/totally-twisted.md
-</code></pre></div><p>If <code>hugo server</code> is running with the <code>--navigateToChanged</code> flag your new post will appear automatically in JavaScript-enabled browsers. If you see an empty page you probably need to restart <code>hugo server</code> with the <code>--buildDrafts</code> flag.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">$ <span class="nb">cd</span> flying-toasters
+</span></span><span class="line"><span class="cl">$ cp themes/after-dark/archetypes/post.md archetypes/
+</span></span></code></pre></div><p>Make some changes to <code>post.md</code> then use <code>hugo new</code> to draft a new post:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">$ vi archetypes/post.md <span class="c1"># or vim, emacs, nano ...</span>
+</span></span><span class="line"><span class="cl">$ hugo new post/totally-twisted.md
+</span></span></code></pre></div><p>If <code>hugo server</code> is running with the <code>--navigateToChanged</code> flag your new post will appear automatically in JavaScript-enabled browsers. If you see an empty page you probably need to restart <code>hugo server</code> with the <code>--buildDrafts</code> flag.</p>
 <p>Use archetypes to maintain consistency when creating content for <a href="http://localhost:1414/feature/custom-layouts">Custom Layouts</a>. Like custom layouts 
 <a  target="_blank" rel="external noopener" href="https://gohugo.io/content-management/archetypes/">Hugo Archetypes</a> may contain templating logic.</p>
 <hr>
@@ -290,28 +289,28 @@ $ hugo new post/totally-twisted.md
 <p>If you do not see the above animation, you may install the <a href="http://localhost:1414/module/fractal-forest/">Fractal Forest</a> module yourself or reinstall After Dark using <a href="http://localhost:1414/feature/quick-install/">Quick Install</a> for instant setup.</p>
 <p>Review the <a href="http://localhost:1414/">Online Help</a> to learn about other useful features such as the <a href="http://localhost:1414/feature/section-menu">Section Menus</a> navigational aid, responsive <a href="http://localhost:1414/feature/post-images/%22">Post Images</a>, offline <a href="http://localhost:1414/feature/fuzzy-search/">Fuzzy Search</a> and more.</p>
 <p>If online help isn&rsquo;t running, go ahead and start it using the corresponding command from the following cheat sheet within your site directory:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="c1"># After Dark scripts</span>
-./themes/after-dark/bin/upgrade <span class="c1"># check for updates and upgrade</span>
-./themes/after-dark/bin/help <span class="c1"># start online help docs</span>
-./themes/after-dark/bin/install <span class="c1"># run the quick installer</span>
-
-<span class="c1"># Hugo commands</span>
-hugo <span class="c1"># build site with default settings</span>
-hugo --minify <span class="c1"># build with minified sources (hugo 0.47 and above)</span>
-hugo --config config.prod.toml <span class="c1"># build with custom config</span>
-hugo --templateMetrics <span class="c1"># generate template metrics</span>
-hugo new about.md <span class="c1"># generate page content</span>
-hugo new post/coming-soon.md <span class="c1"># generate new post content</span>
-hugo serve <span class="c1"># serve locally with default settings</span>
-hugo serve --buildDrafts --navigateToChanged <span class="c1"># serve with drafts for editing</span>
-hugo serve --buildExpired <span class="c1"># serve locally showing expired content</span>
-hugo serve --disableLiveReload <span class="c1"># serve locally w/live reload disabled</span>
-hugo list drafts <span class="c1"># list draft content</span>
-hugo list expired <span class="c1"># list expired content</span>
-hugo list future <span class="c1"># list future content</span>
-hugo <span class="o">[</span>serve<span class="o">]</span> --debug <span class="c1"># build or serve hugo with debug info</span>
-hugo <span class="o">[</span>command<span class="o">]</span> --help
-</code></pre></div><p>Thank you for choosing After Dark.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="c1"># After Dark scripts</span>
+</span></span><span class="line"><span class="cl">./themes/after-dark/bin/upgrade <span class="c1"># check for updates and upgrade</span>
+</span></span><span class="line"><span class="cl">./themes/after-dark/bin/help <span class="c1"># start online help docs</span>
+</span></span><span class="line"><span class="cl">./themes/after-dark/bin/install <span class="c1"># run the quick installer</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Hugo commands</span>
+</span></span><span class="line"><span class="cl">hugo <span class="c1"># build site with default settings</span>
+</span></span><span class="line"><span class="cl">hugo --minify <span class="c1"># build with minified sources (hugo 0.47 and above)</span>
+</span></span><span class="line"><span class="cl">hugo --config config.prod.toml <span class="c1"># build with custom config</span>
+</span></span><span class="line"><span class="cl">hugo --templateMetrics <span class="c1"># generate template metrics</span>
+</span></span><span class="line"><span class="cl">hugo new about.md <span class="c1"># generate page content</span>
+</span></span><span class="line"><span class="cl">hugo new post/coming-soon.md <span class="c1"># generate new post content</span>
+</span></span><span class="line"><span class="cl">hugo serve <span class="c1"># serve locally with default settings</span>
+</span></span><span class="line"><span class="cl">hugo serve --buildDrafts --navigateToChanged <span class="c1"># serve with drafts for editing</span>
+</span></span><span class="line"><span class="cl">hugo serve --buildExpired <span class="c1"># serve locally showing expired content</span>
+</span></span><span class="line"><span class="cl">hugo serve --disableLiveReload <span class="c1"># serve locally w/live reload disabled</span>
+</span></span><span class="line"><span class="cl">hugo list drafts <span class="c1"># list draft content</span>
+</span></span><span class="line"><span class="cl">hugo list expired <span class="c1"># list expired content</span>
+</span></span><span class="line"><span class="cl">hugo list future <span class="c1"># list future content</span>
+</span></span><span class="line"><span class="cl">hugo <span class="o">[</span>serve<span class="o">]</span> --debug <span class="c1"># build or serve hugo with debug info</span>
+</span></span><span class="line"><span class="cl">hugo <span class="o">[</span>command<span class="o">]</span> --help
+</span></span></code></pre></div><p>Thank you for choosing After Dark.</p>
     </div>
     <footer>
       <hr>

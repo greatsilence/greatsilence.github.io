@@ -10,10 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.91.2)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.109.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sat, 15 Jan 2022 19:38:51 UT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Feb 2023 10:28:58 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/categories/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posting Hugo Github</title>
@@ -21,13 +21,13 @@
       <pubDate>Wed, 27 Oct 2021 18:10:09 UT</pubDate>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/post/posting-hugo-github/</guid>
-      <description>Wow, das war eine &amp;lsquo;lange Reise&amp;rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
+      <description>Wow, das war eine &amp;rsquo;lange Reise&amp;rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
 Jetzt habe ich&amp;rsquo;s endlich geschafft. Im Folgenden beschreibe ich den Workflow, um eine statische Website mit Hugo und After-Dark auf Github zu betreiben.
-Workflow  Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &amp;hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.</description>
+Workflow Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &amp;hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.</description>
       <category domain="https://greatsilence.github.io/categories/hacking">Hacking</category>
-      <content:encoded><![CDATA[Wow, das war eine &amp;lsquo;lange Reise&amp;rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
+      <content:encoded><![CDATA[Wow, das war eine &amp;rsquo;lange Reise&amp;rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
 Jetzt habe ich&amp;rsquo;s endlich geschafft. Im Folgenden beschreibe ich den Workflow, um eine statische Website mit Hugo und After-Dark auf Github zu betreiben.
-Workflow  Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &amp;hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.github.io besitzen. Hier lade ich per Git den Inhalt des public Verzeichnisses hoch. Da auf meinem ersten Account bereits ein Repo mit diesem USER Namen besteht the lion blog, musste ich einen zweiten Account extra für diese Website anlegen (und dazu eine andere Email-Adresse verwenden). Das zweite Repo kann einen beliebigen Namen tragen. Besser wäre es allerdings, eine Bezeichnung mit source oder Hugo zu verwenden (damit man erkennt, wozu dieses Repo dient). Dorthin kommt das Eltern-Verzeichnis von public. Jetzt kommt der &amp;lsquo;tricky part&amp;rsquo;: Das public-Verzeichnis wird per submodule mit dem Eltern-Verzeichnis verbunden.  $ git submodule add -b main -f https://github.com/USER/USER.github.io.git public  Eine kleine, aber wichtige Info: ich habe bemerkt, dass man - nach dem Erstellen eines Repos - besser nicht im Webbrowser die Back-Buttons benutzen soll, um zurück zu gehen. Dies macht (fast) alle bisherigen Einstellungen rückgängig. Also: einfach den Tab schließen. Ab jetzt muss ich beide Repos bei jeder Änderung mit git &amp;lsquo;bearbeiten&amp;rsquo;.  $ hugo new post/&amp;lt;Name_des_posts&amp;gt;.md ## mit Editor bearbeiten (draft auf &amp;#39;false&amp;#39; setzen $ hugo server -D	## Kontrolle; startet lokalen Server $ Crtl-C ## lokalen Server beenden $ hugo ## Website in /public erstellen $ git add .	## git-Befehle  $ git commit -m &amp;#34;einen commit schreiben&amp;#34; $ git push -u origin main  Voilà!  Zum Schluss noch ein Bild von einem Löwen:
+Workflow Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &amp;hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.github.io besitzen. Hier lade ich per Git den Inhalt des public Verzeichnisses hoch. Da auf meinem ersten Account bereits ein Repo mit diesem USER Namen besteht the lion blog, musste ich einen zweiten Account extra für diese Website anlegen (und dazu eine andere Email-Adresse verwenden). Das zweite Repo kann einen beliebigen Namen tragen. Besser wäre es allerdings, eine Bezeichnung mit source oder Hugo zu verwenden (damit man erkennt, wozu dieses Repo dient). Dorthin kommt das Eltern-Verzeichnis von public. Jetzt kommt der &amp;rsquo;tricky part&amp;rsquo;: Das public-Verzeichnis wird per submodule mit dem Eltern-Verzeichnis verbunden. $ git submodule add -b main -f https://github.com/USER/USER.github.io.git public Eine kleine, aber wichtige Info: ich habe bemerkt, dass man - nach dem Erstellen eines Repos - besser nicht im Webbrowser die Back-Buttons benutzen soll, um zurück zu gehen. Dies macht (fast) alle bisherigen Einstellungen rückgängig. Also: einfach den Tab schließen. Ab jetzt muss ich beide Repos bei jeder Änderung mit git &amp;lsquo;bearbeiten&amp;rsquo;. $ hugo new post/&amp;lt;Name_des_posts&amp;gt;.md ## mit Editor bearbeiten (draft auf &amp;#39;false&amp;#39; setzen) $ hugo server -D	## Kontrolle; startet lokalen Server $ Crtl-C ## lokalen Server beenden $ hugo ## Website in /public erstellen $ git add .	## git-Befehle $ git commit -m &amp;#34;einen commit schreiben&amp;#34; $ git push -u origin main Voilà! Zum Schluss noch ein Bild von einem Löwen:
 Thank you for choosing After Dark.
 ]]></content:encoded>
     </item>
@@ -107,7 +107,7 @@ flying-toasters ├── archetypes │ ├── default.md │ └── po
 $ cd flying-toasters $ cp themes/after-dark/archetypes/post.md archetypes/ Make some changes to post.md then use hugo new to draft a new post:
 $ vi archetypes/post.md # or vim, emacs, nano ... $ hugo new post/totally-twisted.md If hugo server is running with the --navigateToChanged flag your new post will appear automatically in JavaScript-enabled browsers. If you see an empty page you probably need to restart hugo server with the --buildDrafts flag.
 Use archetypes to maintain consistency when creating content for Custom Layouts. Like custom layouts Hugo Archetypes may contain templating logic.
- Tip: This message appears below a Manual Summary Split.  The above tip uses a shortcode called Alert. In addition to a number of Shortcodes After Dark provides a number of other Features.
+Tip: This message appears below a Manual Summary Split. The above tip uses a shortcode called Alert. In addition to a number of Shortcodes After Dark provides a number of other Features.
 The Module System, for example, provides a module to display image animations with alpha transparency and something not possible using a GIF:
 If you do not see the above animation, you may install the Fractal Forest module yourself or reinstall After Dark using Quick Install for instant setup.
 Review the Online Help to learn about other useful features such as the Section Menus navigational aid, responsive Post Images, offline Fuzzy Search and more.

@@ -24,7 +24,6 @@
 <meta property="article:published_time" content="2021-10-27T20:10:09+02:00" />
 <meta property="article:modified_time" content="2021-10-27T20:10:09+02:00" />
 
-
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://source.unsplash.com/collection/983219/1600x900"/>
 
@@ -256,7 +255,7 @@ a[itemprop="url"]:hover {
     
 
     <div itemprop="articleBody">
-      <p>Wow, das war eine &lsquo;lange Reise&rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.</p>
+      <p>Wow, das war eine &rsquo;lange Reise&rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.</p>
 <p>Jetzt habe ich&rsquo;s endlich geschafft. Im Folgenden beschreibe ich den Workflow, um eine statische Website mit Hugo und After-Dark auf Github zu betreiben.</p>
 <h2 id="workflow">Workflow</h2>
 <ul>
@@ -265,21 +264,21 @@ a[itemprop="url"]:hover {
 <li>Das Repo für den Blog-Inhalt <strong>muss</strong> den Namen USER.github.io besitzen. Hier lade ich per Git den Inhalt des public Verzeichnisses hoch. Da auf meinem ersten Account bereits ein Repo mit diesem USER Namen besteht 
 <a  target="_blank" rel="external noopener" href="https://mfuchs1.github.io/">the lion blog</a>, musste ich einen zweiten Account extra für diese Website anlegen (und dazu eine andere Email-Adresse verwenden).</li>
 <li>Das zweite Repo kann einen beliebigen Namen tragen. Besser wäre es allerdings, eine Bezeichnung mit <code>source</code> oder <code>Hugo</code> zu verwenden (damit man erkennt, wozu dieses Repo dient). Dorthin kommt das Eltern-Verzeichnis von public.</li>
-<li>Jetzt kommt der &lsquo;tricky part&rsquo;: Das public-Verzeichnis wird per submodule mit dem Eltern-Verzeichnis verbunden.</li>
+<li>Jetzt kommt der &rsquo;tricky part&rsquo;: Das public-Verzeichnis wird per submodule mit dem Eltern-Verzeichnis verbunden.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git submodule add -b main -f https://github.com/USER/USER.github.io.git public 
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git submodule add -b main -f https://github.com/USER/USER.github.io.git public 
+</span></span></code></pre></div><ul>
 <li>Eine kleine, aber wichtige Info: ich habe bemerkt, dass man - nach dem Erstellen eines Repos - besser nicht im Webbrowser die <code>Back</code>-Buttons benutzen soll, um zurück zu gehen. Dies macht (fast) alle bisherigen Einstellungen rückgängig. Also: einfach den Tab schließen.</li>
 <li>Ab jetzt muss ich beide Repos bei jeder Änderung mit git &lsquo;bearbeiten&rsquo;.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>hugo new post/&lt;Name_des_posts&gt;.md   	<span class="c1">## mit Editor bearbeiten (draft auf &#39;false&#39; setzen</span>
-<span class="gp">$ </span>hugo server -D			<span class="c1">## Kontrolle; startet lokalen Server</span>
-<span class="gp">$ </span>Crtl-C 				<span class="c1">## lokalen Server beenden</span>
-<span class="gp">$ </span>hugo 					<span class="c1">## Website in /public erstellen</span>
-<span class="gp">$ </span>git add .				<span class="c1">## git-Befehle </span>
-<span class="gp">$ </span>git commit -m <span class="s2">&#34;einen commit schreiben&#34;</span>
-<span class="gp">$ </span>git push -u origin main
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> hugo new post/&lt;Name_des_posts&gt;.md   	<span class="c1">## mit Editor bearbeiten (draft auf &#39;false&#39; setzen)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> hugo server -D			<span class="c1">## Kontrolle; startet lokalen Server</span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> Crtl-C 				<span class="c1">## lokalen Server beenden</span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> hugo 					<span class="c1">## Website in /public erstellen</span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> git add .				<span class="c1">## git-Befehle </span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> git commit -m <span class="s2">&#34;einen commit schreiben&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> git push -u origin main
+</span></span></code></pre></div><ul>
 <li>Voilà!</li>
 </ul>
 <p>Zum Schluss noch ein Bild von einem Löwen:</p>

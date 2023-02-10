@@ -24,7 +24,6 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://greatsilence.github.io/post/" /><meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
 
-
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
 
@@ -338,9 +337,9 @@ a[itemprop="url"]:hover {
       <blockquote itemprop="headline">This text was generated using the After Dark post archetype.</blockquote>
     
   </header>
-  <div itemprop="">Wow, das war eine &lsquo;lange Reise&rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
+  <div itemprop="">Wow, das war eine &rsquo;lange Reise&rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
 Jetzt habe ich&rsquo;s endlich geschafft. Im Folgenden beschreibe ich den Workflow, um eine statische Website mit Hugo und After-Dark auf Github zu betreiben.
-Workflow  Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.</div>
+Workflow Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.</div>
   <meta itemprop="inLanguage" content="en-US">
   <meta itemprop="datePublished" content="2021-10-27T20:10:09&#43;02:00">
   <meta itemprop="dateModified" content="2021-10-27T20:10:09&#43;02:00">
@@ -523,12 +522,12 @@ Thank you for choosing After Dark.</div>
 │   └── post.md
 ├── content
 </code></pre><p>If <code>post.md</code> does not exist yet, copy it from the After Dark default:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">$ <span class="nb">cd</span> flying-toasters
-$ cp themes/after-dark/archetypes/post.md archetypes/
-</code></pre></div><p>Make some changes to <code>post.md</code> then use <code>hugo new</code> to draft a new post:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">$ vi archetypes/post.md <span class="c1"># or vim, emacs, nano ...</span>
-$ hugo new post/totally-twisted.md
-</code></pre></div><p>If <code>hugo server</code> is running with the <code>--navigateToChanged</code> flag your new post will appear automatically in JavaScript-enabled browsers. If you see an empty page you probably need to restart <code>hugo server</code> with the <code>--buildDrafts</code> flag.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">$ <span class="nb">cd</span> flying-toasters
+</span></span><span class="line"><span class="cl">$ cp themes/after-dark/archetypes/post.md archetypes/
+</span></span></code></pre></div><p>Make some changes to <code>post.md</code> then use <code>hugo new</code> to draft a new post:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">$ vi archetypes/post.md <span class="c1"># or vim, emacs, nano ...</span>
+</span></span><span class="line"><span class="cl">$ hugo new post/totally-twisted.md
+</span></span></code></pre></div><p>If <code>hugo server</code> is running with the <code>--navigateToChanged</code> flag your new post will appear automatically in JavaScript-enabled browsers. If you see an empty page you probably need to restart <code>hugo server</code> with the <code>--buildDrafts</code> flag.</p>
 <p>Use archetypes to maintain consistency when creating content for <a href="http://localhost:1414/feature/custom-layouts">Custom Layouts</a>. Like custom layouts 
 <a  target="_blank" rel="external noopener" href="https://gohugo.io/content-management/archetypes/">Hugo Archetypes</a> may contain templating logic.</p></div>
   <meta itemprop="inLanguage" content="en-US">
