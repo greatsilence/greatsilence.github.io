@@ -13,8 +13,41 @@
     <generator>After Dark 9.2.3 (Hugo 0.112.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Fri, 21 Jul 2023 16:29:44 UT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2023 22:42:21 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Denote Hugo</title>
+      <link>https://greatsilence.github.io/post/20230722t003306--denote-hugo__public/</link>
+      <pubDate>Fri, 21 Jul 2023 22:33:00 UT</pubDate>
+      <dc:creator>[Matthias Fuchs]</dc:creator>
+      <guid>https://greatsilence.github.io/post/20230722t003306--denote-hugo__public/</guid>
+      <description>Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.
+Markdown Ich hab in Emacs &#43; eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.
+org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht.</description>
+      <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
+      <content:encoded><![CDATA[Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.
+Markdown Ich hab in Emacs &#43; eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.
+org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht. Sieht vielversprechend aus, allerdings: damit das funktioniert, muss ich bestimmte files, scripts, etc &amp;hellip; erstellen. Und genau DAS wird nicht ausreichend bis gar nicht erklärt.
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Neuer Versuch</title>
+      <link>https://greatsilence.github.io/post/neuer_versuch/</link>
+      <pubDate>Fri, 21 Jul 2023 19:41:59 UT</pubDate>
+      <dc:creator>Matthias Fuchs</dc:creator>
+      <guid>https://greatsilence.github.io/post/neuer_versuch/</guid>
+      <description>So, hier beginne ich neu. Eine andere Möglichkeit ist, dass ich in Emacs eshell öffne und dort die Befehle ausführe, welche ich in dem Post &amp;ldquo;Github..&amp;rdquo; beschrieben habe.
+Positives Natürlich ist das möglich. Und in Emacs lässt sich Markdown problemlos bearbeiten. Bei den Überschriften ist zu beachten: Headlines mit einem &amp;ldquo;#&amp;rdquo; erhalten im Blog eine durchgezogene Linie. Ab zwei &amp;ldquo;##&amp;rdquo; verschwindet diese Linie - siehe Blog. Headlines werden in Markdown mit dem Befehl: C-c C-s 1(2,3, &amp;hellip; - Level) eingefügt.</description>
+      <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
+      <content:encoded><![CDATA[So, hier beginne ich neu. Eine andere Möglichkeit ist, dass ich in Emacs eshell öffne und dort die Befehle ausführe, welche ich in dem Post &amp;ldquo;Github..&amp;rdquo; beschrieben habe.
+Positives Natürlich ist das möglich. Und in Emacs lässt sich Markdown problemlos bearbeiten. Bei den Überschriften ist zu beachten: Headlines mit einem &amp;ldquo;#&amp;rdquo; erhalten im Blog eine durchgezogene Linie. Ab zwei &amp;ldquo;##&amp;rdquo; verschwindet diese Linie - siehe Blog. Headlines werden in Markdown mit dem Befehl: C-c C-s 1(2,3, &amp;hellip; - Level) eingefügt. Was ist eine &amp;ldquo;automatische Headline&amp;rdquo; (C-c C-s h)? Aha, das fügt eine nächste Hedaline auf dem selben Niveau wie die vorhergehende ein.
+Gibt es sog. capture-templates in Markdown? Nein, gibt es nicht.
+Negatives Was nicht so gut klappt: ich kann nicht die Server-Adresse anklicken. Das liegt wohl an eshell; eventuell geht das mit anderen Emacs-Methoden (so etwas wie: url markieren und diesen Link öffnen?). Hab es gefunden: browse-url-firefox. In Konsole kann ich mit C-c den Hugo Server stoppen. Das geht in eshell nicht.
+Ein weiterer &amp;ldquo;Nachteil&amp;rdquo;: ich kenne Markdown kaum. Es wird wohl einfacher sein, ein org-file zu schreiben (mit dem denote-template) und dieses hinterher nach Markdown zu exportieren, wobei noch ein paar Dinge im Header des Files zu verändern sind.
+Conclusion So: ich werde wohl bei org-mode bleiben.
+Thank you for choosing After Dark.
+]]></content:encoded>
+    </item>
     <item>
       <title>Fünfter Eintrag</title>
       <link>https://greatsilence.github.io/post/20230721t180735--f%C3%BCnfter-eintrag__public/</link>

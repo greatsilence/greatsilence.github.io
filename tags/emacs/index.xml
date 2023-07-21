@@ -1,0 +1,37 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>emacs on After Dark</title>
+    <link>https://greatsilence.github.io/tags/emacs/</link>
+    <description>Recent content in emacs on After Dark</description>
+    <image>
+      <title>emacs on After Dark</title>
+      <link>https://greatsilence.github.io/tags/emacs/</link>
+      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
+    </image>
+    <ttl>1440</ttl>
+    <generator>After Dark 9.2.3 (Hugo 0.112.3)</generator>
+    <language>en-US</language>
+    <copyright>Copyright &amp;copy; Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Fri, 21 Jul 2023 22:42:21 UT</lastBuildDate>
+    <atom:link href="https://greatsilence.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neuer Versuch</title>
+      <link>https://greatsilence.github.io/post/neuer_versuch/</link>
+      <pubDate>Fri, 21 Jul 2023 19:41:59 UT</pubDate>
+      <dc:creator>Matthias Fuchs</dc:creator>
+      <guid>https://greatsilence.github.io/post/neuer_versuch/</guid>
+      <description>So, hier beginne ich neu. Eine andere Möglichkeit ist, dass ich in Emacs eshell öffne und dort die Befehle ausführe, welche ich in dem Post &amp;ldquo;Github..&amp;rdquo; beschrieben habe.
+Positives Natürlich ist das möglich. Und in Emacs lässt sich Markdown problemlos bearbeiten. Bei den Überschriften ist zu beachten: Headlines mit einem &amp;ldquo;#&amp;rdquo; erhalten im Blog eine durchgezogene Linie. Ab zwei &amp;ldquo;##&amp;rdquo; verschwindet diese Linie - siehe Blog. Headlines werden in Markdown mit dem Befehl: C-c C-s 1(2,3, &amp;hellip; - Level) eingefügt.</description>
+      <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
+      <content:encoded><![CDATA[So, hier beginne ich neu. Eine andere Möglichkeit ist, dass ich in Emacs eshell öffne und dort die Befehle ausführe, welche ich in dem Post &amp;ldquo;Github..&amp;rdquo; beschrieben habe.
+Positives Natürlich ist das möglich. Und in Emacs lässt sich Markdown problemlos bearbeiten. Bei den Überschriften ist zu beachten: Headlines mit einem &amp;ldquo;#&amp;rdquo; erhalten im Blog eine durchgezogene Linie. Ab zwei &amp;ldquo;##&amp;rdquo; verschwindet diese Linie - siehe Blog. Headlines werden in Markdown mit dem Befehl: C-c C-s 1(2,3, &amp;hellip; - Level) eingefügt. Was ist eine &amp;ldquo;automatische Headline&amp;rdquo; (C-c C-s h)? Aha, das fügt eine nächste Hedaline auf dem selben Niveau wie die vorhergehende ein.
+Gibt es sog. capture-templates in Markdown? Nein, gibt es nicht.
+Negatives Was nicht so gut klappt: ich kann nicht die Server-Adresse anklicken. Das liegt wohl an eshell; eventuell geht das mit anderen Emacs-Methoden (so etwas wie: url markieren und diesen Link öffnen?). Hab es gefunden: browse-url-firefox. In Konsole kann ich mit C-c den Hugo Server stoppen. Das geht in eshell nicht.
+Ein weiterer &amp;ldquo;Nachteil&amp;rdquo;: ich kenne Markdown kaum. Es wird wohl einfacher sein, ein org-file zu schreiben (mit dem denote-template) und dieses hinterher nach Markdown zu exportieren, wobei noch ein paar Dinge im Header des Files zu verändern sind.
+Conclusion So: ich werde wohl bei org-mode bleiben.
+Thank you for choosing After Dark.
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

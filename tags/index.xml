@@ -13,13 +13,29 @@
     <generator>After Dark 9.2.3 (Hugo 0.112.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Fri, 21 Jul 2023 16:29:44 UT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2023 22:42:21 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>public</title>
       <link>https://greatsilence.github.io/tags/public/</link>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/tags/public/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>emacs</title>
+      <link>https://greatsilence.github.io/tags/emacs/</link>
+      <dc:creator>Matthias Fuchs</dc:creator>
+      <guid>https://greatsilence.github.io/tags/emacs/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>hugo</title>
+      <link>https://greatsilence.github.io/tags/hugo/</link>
+      <dc:creator>Matthias Fuchs</dc:creator>
+      <guid>https://greatsilence.github.io/tags/hugo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
