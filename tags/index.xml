@@ -10,19 +10,11 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.112.3)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.118.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Fri, 21 Jul 2023 22:42:21 UT</lastBuildDate>
+    <lastBuildDate>Mon, 25 Sep 2023 18:54:07 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>public</title>
-      <link>https://greatsilence.github.io/tags/public/</link>
-      <dc:creator>Matthias Fuchs</dc:creator>
-      <guid>https://greatsilence.github.io/tags/public/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
     <item>
       <title>emacs</title>
       <link>https://greatsilence.github.io/tags/emacs/</link>
@@ -32,18 +24,26 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>hugo</title>
-      <link>https://greatsilence.github.io/tags/hugo/</link>
+      <title>jesus</title>
+      <link>https://greatsilence.github.io/tags/jesus/</link>
       <dc:creator>Matthias Fuchs</dc:creator>
-      <guid>https://greatsilence.github.io/tags/hugo/</guid>
+      <guid>https://greatsilence.github.io/tags/jesus/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>Jesus</title>
-      <link>https://greatsilence.github.io/tags/jesus/</link>
+      <title>public</title>
+      <link>https://greatsilence.github.io/tags/public/</link>
       <dc:creator>Matthias Fuchs</dc:creator>
-      <guid>https://greatsilence.github.io/tags/jesus/</guid>
+      <guid>https://greatsilence.github.io/tags/public/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>hugo</title>
+      <link>https://greatsilence.github.io/tags/hugo/</link>
+      <dc:creator>Matthias Fuchs</dc:creator>
+      <guid>https://greatsilence.github.io/tags/hugo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

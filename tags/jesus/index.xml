@@ -1,20 +1,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>Jesus on After Dark</title>
+    <title>jesus on After Dark</title>
     <link>https://greatsilence.github.io/tags/jesus/</link>
-    <description>Recent content in Jesus on After Dark</description>
+    <description>Recent content in jesus on After Dark</description>
     <image>
-      <title>Jesus on After Dark</title>
+      <title>jesus on After Dark</title>
       <link>https://greatsilence.github.io/tags/jesus/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.112.3)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.118.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Fri, 21 Jul 2023 22:42:21 UT</lastBuildDate>
+    <lastBuildDate>Mon, 25 Sep 2023 18:54:07 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/tags/jesus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Was gibt es Neues</title>
+      <link>https://greatsilence.github.io/post/20230925t204119--was-gibt-es-neues__emacs_jesus/</link>
+      <pubDate>Mon, 25 Sep 2023 18:41:00 UT</pubDate>
+      <dc:creator>[Matthias Fuchs]</dc:creator>
+      <guid>https://greatsilence.github.io/post/20230925t204119--was-gibt-es-neues__emacs_jesus/</guid>
+      <description>Schule Anders als zum Ende des letzten Schuljahres angekündigt wird es dieses Jahr 2023/24 nur zwei statt drei 1. Klassen geben. Da sich zusätzlich in meiner anderen Schule sehr viele katholische Schüler vom RU abgemeldet haben, bleiben dort nur mehr vier (!) Schüler übrig. Das ergibt gerade einmal eine Stunde pro Woche - für eine Schule mit über 200 Schülern. Organisatorisch heißt dies: eine Doppelstunde alle zwei Wochen.
+Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &amp;ldquo;Chefin&amp;rdquo; kümmert sich darum.</description>
+      <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
+      <content:encoded><![CDATA[Schule Anders als zum Ende des letzten Schuljahres angekündigt wird es dieses Jahr 2023/24 nur zwei statt drei 1. Klassen geben. Da sich zusätzlich in meiner anderen Schule sehr viele katholische Schüler vom RU abgemeldet haben, bleiben dort nur mehr vier (!) Schüler übrig. Das ergibt gerade einmal eine Stunde pro Woche - für eine Schule mit über 200 Schülern. Organisatorisch heißt dies: eine Doppelstunde alle zwei Wochen.
+Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &amp;ldquo;Chefin&amp;rdquo; kümmert sich darum. Ich könnte in meiner Stammschule nachfragen, ob es eventuell für mich noch eine Stunde gäbe. Was ich mir kaum vorstellen kann - aber fragen kostet nichts.
+Natürlich bedeutet dies ein wenig an finanziellen Einbußen. Vielmehr jedoch schmerzt das für die Moral - so viel Hingabe - kaum Retour. Im Gegenteil: alle Schüler vom vorigen Jahr haben sich abgemeldet. Das tut weh. Das spürt man keine Anerkennung, Dankbarkeit, &amp;hellip; was bleibt ist der Fade Geschmack von Gleichgültigkeit. Viele Christen werden oder sind gleichgültig.
+Jesus Mein geistliches Leben bedarf dringend einer Neuorientierung und Vertiefung, sonst verhungere ich innerlich. Mehr Gebet, intensiveres Gebet, Bibellesen; geistliche Lektüre (B16, Romano Guardini, etc. - in meiner Bibliothek wimmelt es von guten Büchern).
+]]></content:encoded>
+    </item>
     <item>
       <title>Peacemakers</title>
       <link>https://greatsilence.github.io/post/peacemakers/</link>
