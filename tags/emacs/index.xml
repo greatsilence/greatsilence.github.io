@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.118.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; 2023 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Tue, 26 Sep 2023 15:01:28 UT</lastBuildDate>
+    <lastBuildDate>Tue, 26 Sep 2023 20:07:55 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Was gibt es Neues</title>
@@ -32,7 +32,7 @@ Update Wie schnell kann es gehen, und unsere Welt kann sich &amp;ldquo;ändern&a
 Was zeigt mir das? Wenn ich meine Situation in Gottes Hände lege (und in jene meiner Vorgesetzten), dann wendet es sich zum Guten (vgl Römerbrief).
 Mittlerweile sitze ich in der Kletterhalle Salzburg Nord und schreibe diesen Text. Gabriel beginnt seinen Kletterkurs in diesem Schuljahr. Leider hat Gabriel wieder einmal Schulmaterial vergessen und musste es in der Schule holen fahren. Ich hoffe, er bemüht sich in Zukunft besser, und bringt das nötige &amp;ldquo;Zeug&amp;rdquo; nach Hause.
 Aber eigentlich hat dieses Schuljahr für Gabriel wesentlich positiver begonnen als das erste Schuljahr in der MS.
-Wie kann ich den Copyright-Eintrag in jedem Post ändern? Das muss ich noch nachforschen? Gibt es wo eine post-Template dafür? Habe es gefunden: ich habe die Datei &amp;lsquo;config.toml&amp;rsquo; geändert und beim Copyright-Eintrag (template?) das Jahr hinzugefügt.
+Wie kann ich den Copyright-Eintrag in jedem Post ändern? Das muss ich noch nachforschen? Gibt es wo eine post-Template dafür? Habe es gefunden: ich habe die Datei ~/flying-toasters/config.toml geändert und beim Copyright-Eintrag (template?) das Jahr hinzugefügt.
 So, jetzt wird dieser Eintrag gepostet.
 ]]></content:encoded>
     </item>
