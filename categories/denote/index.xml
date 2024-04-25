@@ -13,7 +13,7 @@
     <generator>After Dark 10.3.2 (Hugo 0.123.7)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; 2024 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 25 Apr 2024 11:45:25 UT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2024 12:06:20 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/categories/denote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogeinträge mit Denote und Hugo</title>
@@ -22,10 +22,11 @@
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/</guid>
       <description>Denote Hier erkläre ich meinen Workflow in org-mode und denote für meine persönlichen Blog &amp;ldquo;After Dark&amp;rdquo;.
-C-c n t (denote-template) &amp;ldquo;post&amp;rdquo;-Template Titel eingeben automatisches filetags: hugo Keywords: hugo Hugo-Categories Blogtext schreiben save file export to hugo: C-c C-e H H (export to HUGO markdown file) C-c C-e H o (export to Hugo Markdown and open) Git / magit Workflow in Git bzw magit, um die Blogeinträge zu publizieren.</description>
+C-c n t (denote-template) &amp;ldquo;post&amp;rdquo;-Template Titel eingeben automatisches filetags: hugo Keywords: hugo Hugo-Categories: nur eine Kategorie eintragen Blogtext schreiben save file export to hugo: C-c C-e H H (export to HUGO markdown file) C-c C-e H o (export to Hugo Markdown and open) Git / magit Workflow in Git bzw magit, um die Blogeinträge zu publizieren.</description>
       <category domain="https://greatsilence.github.io/categories/denote">Denote</category>
       <content:encoded><![CDATA[Denote Hier erkläre ich meinen Workflow in org-mode und denote für meine persönlichen Blog &amp;ldquo;After Dark&amp;rdquo;.
-C-c n t (denote-template) &amp;ldquo;post&amp;rdquo;-Template Titel eingeben automatisches filetags: hugo Keywords: hugo Hugo-Categories Blogtext schreiben save file export to hugo: C-c C-e H H (export to HUGO markdown file) C-c C-e H o (export to Hugo Markdown and open) Git / magit Workflow in Git bzw magit, um die Blogeinträge zu publizieren.
+C-c n t (denote-template) &amp;ldquo;post&amp;rdquo;-Template Titel eingeben automatisches filetags: hugo Keywords: hugo Hugo-Categories: nur eine Kategorie eintragen Blogtext schreiben save file export to hugo: C-c C-e H H (export to HUGO markdown file) C-c C-e H o (export to Hugo Markdown and open) Git / magit Workflow in Git bzw magit, um die Blogeinträge zu publizieren.
+$ hugo server -D	## Kontrolle; startet lokalen Server $ Crtl-C ## lokalen Server beenden $ hugo ## Website in /public erstellen $ git add .	## git-Befehle, auch im /public directory eingeben $ git commit -m &amp;#34;einen commit schreiben&amp;#34; $ git push -u origin main magit Befehle:
 ]]></content:encoded>
     </item>
   </channel>

@@ -22,7 +22,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://greatsilence.github.io/post/20240425t092247--blogeintr%C3%A4ge-mit-denote-und-hugo__hugo/" /><meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2024-04-25T09:22:00+02:00" />
-<meta property="article:modified_time" content="2024-04-25T13:44:43+02:00" />
+<meta property="article:modified_time" content="2024-04-25T14:00:03+02:00" />
 
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -44,6 +44,14 @@
 
 
     
+    
+      <script type="module">
+        import fetchInject from '\/js\/modules\/fetch-inject.min.js';
+        fetchInject(['\/css\/syntax.css']);
+      </script>
+      <noscript>
+        <link href="/css/syntax.css" rel="stylesheet">
+      </noscript>
     
     
     <script type="module" integrity="sha512-IzXOE2MAkgsjEdh/8o3Yo4uS2Ht7lHrxD2AscD5l5Ms29/lZI0nfE0jf1X&#43;21EIPJDHTvCimIfVRbAkBAHR&#43;uw==">import fetchInject from '/js/modules/fetch-inject.min.js';
@@ -198,8 +206,8 @@ a[itemprop="url"]:hover {
   <article itemscope itemtype="https://schema.org/BlogPosting">
     <meta itemprop="name" content="Blogeinträge mit Denote und Hugo">
 <meta itemprop="description" content="This text was generated using the After Dark post archetype."><meta itemprop="datePublished" content="2024-04-25T09:22:00+02:00" />
-<meta itemprop="dateModified" content="2024-04-25T13:44:43+02:00" />
-<meta itemprop="wordCount" content="68"><meta itemprop="image" content="https://source.unsplash.com/collection/983219/2000x1322" />
+<meta itemprop="dateModified" content="2024-04-25T14:00:03+02:00" />
+<meta itemprop="wordCount" content="120"><meta itemprop="image" content="https://source.unsplash.com/collection/983219/2000x1322" />
 <meta itemprop="keywords" content="hugo," />
     <header>
       <h1 itemprop="headline name">Blogeinträge mit Denote und Hugo</h1>
@@ -213,7 +221,7 @@ a[itemprop="url"]:hover {
   <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
 </svg>
 
-  Modified: <time datetime="2024-04-25T13:44:43&#43;02:00">25 Apr, 2024</time>
+  Modified: <time datetime="2024-04-25T14:00:03&#43;02:00">25 Apr, 2024</time>
 
 
       </p>
@@ -235,7 +243,7 @@ a[itemprop="url"]:hover {
 <li>Titel eingeben</li>
 <li>automatisches filetags: hugo</li>
 <li>Keywords: hugo</li>
-<li>Hugo-Categories</li>
+<li>Hugo-Categories: nur <strong>eine</strong> Kategorie eintragen</li>
 <li>Blogtext schreiben</li>
 <li>save file</li>
 <li>export to hugo: <code>C-c C-e H H</code> (export to HUGO markdown file)</li>
@@ -243,6 +251,13 @@ a[itemprop="url"]:hover {
 </ul>
 <h2 id="git-magit">Git / magit</h2>
 <p>Workflow in Git bzw <code>magit</code>, um die Blogeinträge zu publizieren.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ hugo server -D			<span class="c1">## Kontrolle; startet lokalen Server</span>
+</span></span><span class="line"><span class="cl">$ Crtl-C 				<span class="c1">## lokalen Server beenden</span>
+</span></span><span class="line"><span class="cl">$ hugo 				<span class="c1">## Website in /public erstellen</span>
+</span></span><span class="line"><span class="cl">$ git add .				<span class="c1">## git-Befehle, auch im /public directory eingeben</span>
+</span></span><span class="line"><span class="cl">$ git commit -m <span class="s2">&#34;einen commit schreiben&#34;</span>
+</span></span><span class="line"><span class="cl">$ git push -u origin main
+</span></span></code></pre></div><p><code>magit</code> Befehle:</p>
 
     </div>
     <footer>
@@ -263,7 +278,7 @@ a[itemprop="url"]:hover {
   
     and tagged <a rel="tag" href="/tags/hugo/">hugo</a>
   
-  using <span itemprop="wordCount">68</span> words.
+  using <span itemprop="wordCount">120</span> words.
 </p>
 
       
