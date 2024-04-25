@@ -10,13 +10,21 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 10.1.0 (Hugo 0.119.0)</generator>
+    <generator>After Dark 10.3.2 (Hugo 0.123.7)</generator>
     <language>en-US</language>
-    <copyright>Copyright &amp;copy; 2023 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 23 Oct 2023 08:28:20 UT</lastBuildDate>
+    <copyright>Copyright &amp;copy; 2024 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Thu, 25 Apr 2024 11:45:25 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>emacs</title>
+      <title>Hugo</title>
+      <link>https://greatsilence.github.io/tags/hugo/</link>
+      <dc:creator>Matthias Fuchs</dc:creator>
+      <guid>https://greatsilence.github.io/tags/hugo/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Emacs</title>
       <link>https://greatsilence.github.io/tags/emacs/</link>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/tags/emacs/</guid>
@@ -24,7 +32,7 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>jesus</title>
+      <title>Jesus</title>
       <link>https://greatsilence.github.io/tags/jesus/</link>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/tags/jesus/</guid>
@@ -32,18 +40,10 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>public</title>
+      <title>Public</title>
       <link>https://greatsilence.github.io/tags/public/</link>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/tags/public/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>hugo</title>
-      <link>https://greatsilence.github.io/tags/hugo/</link>
-      <dc:creator>Matthias Fuchs</dc:creator>
-      <guid>https://greatsilence.github.io/tags/hugo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -64,7 +64,7 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>after</title>
+      <title>After</title>
       <link>https://greatsilence.github.io/tags/after/</link>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/tags/after/</guid>
@@ -72,7 +72,7 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>dark</title>
+      <title>Dark</title>
       <link>https://greatsilence.github.io/tags/dark/</link>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/tags/dark/</guid>
