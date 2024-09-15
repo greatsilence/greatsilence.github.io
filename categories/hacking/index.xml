@@ -10,10 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 10.3.2 (Hugo 0.123.7)</generator>
+    <generator>After Dark 10.3.2 (Hugo 0.133.0)</generator>
     <language>en-US</language>
-    <copyright>Copyright &amp;copy; 2024 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 25 Apr 2024 12:51:11 UT</lastBuildDate>
+    <copyright>Copyright &copy; 2024 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Sun, 15 Sep 2024 18:17:06 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/categories/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posting Hugo Github</title>
@@ -21,13 +21,13 @@
       <pubDate>Wed, 27 Oct 2021 18:10:09 UT</pubDate>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/post/posting-hugo-github/</guid>
-      <description>Wow, das war eine &amp;rsquo;lange Reise&amp;rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
-Jetzt habe ich&amp;rsquo;s endlich geschafft. Im Folgenden beschreibe ich den Workflow, um eine statische Website mit Hugo und After-Dark auf Github zu betreiben.
-Workflow Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &amp;hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.</description>
+      <description>Wow, das war eine &rsquo;lange Reise&rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
+Jetzt habe ich&rsquo;s endlich geschafft. Im Folgenden beschreibe ich den Workflow, um eine statische Website mit Hugo und After-Dark auf Github zu betreiben.
+Workflow Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.</description>
       <category domain="https://greatsilence.github.io/categories/hacking">Hacking</category>
-      <content:encoded><![CDATA[Wow, das war eine &amp;rsquo;lange Reise&amp;rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
-Jetzt habe ich&amp;rsquo;s endlich geschafft. Im Folgenden beschreibe ich den Workflow, um eine statische Website mit Hugo und After-Dark auf Github zu betreiben.
-Workflow Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &amp;hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.github.io besitzen. Hier lade ich per Git den Inhalt des public Verzeichnisses hoch. Da auf meinem ersten Account bereits ein Repo mit diesem USER Namen besteht the lion blog, musste ich einen zweiten Account extra für diese Website anlegen (und dazu eine andere Email-Adresse verwenden). Das zweite Repo kann einen beliebigen Namen tragen. Besser wäre es allerdings, eine Bezeichnung mit source oder Hugo zu verwenden (damit man erkennt, wozu dieses Repo dient). Dorthin kommt das Eltern-Verzeichnis von public. Jetzt kommt der &amp;rsquo;tricky part&amp;rsquo;: Das public-Verzeichnis wird per submodule mit dem Eltern-Verzeichnis verbunden. $ git submodule add -b main -f https://github.com/USER/USER.github.io.git public Eine kleine, aber wichtige Info: ich habe bemerkt, dass man - nach dem Erstellen eines Repos - besser nicht im Webbrowser die Back-Buttons benutzen soll, um zurück zu gehen. Dies macht (fast) alle bisherigen Einstellungen rückgängig. Also: einfach den Tab schließen. Ab jetzt muss ich beide Repos bei jeder Änderung mit git &amp;lsquo;bearbeiten&amp;rsquo;. $ hugo new post/&amp;lt;Name_des_posts&amp;gt;.md ## mit Editor bearbeiten (draft auf &amp;#39;false&amp;#39; setzen) $ hugo server -D	## Kontrolle; startet lokalen Server $ Crtl-C ## lokalen Server beenden $ hugo ## Website in /public erstellen $ git add .	## git-Befehle, auch im /public directory eingeben $ git commit -m &amp;#34;einen commit schreiben&amp;#34; $ git push -u origin main Voilà! Zum Schluss noch ein Bild von einem Löwen:
+      <content:encoded><![CDATA[Wow, das war eine &rsquo;lange Reise&rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
+Jetzt habe ich&rsquo;s endlich geschafft. Im Folgenden beschreibe ich den Workflow, um eine statische Website mit Hugo und After-Dark auf Github zu betreiben.
+Workflow Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.github.io besitzen. Hier lade ich per Git den Inhalt des public Verzeichnisses hoch. Da auf meinem ersten Account bereits ein Repo mit diesem USER Namen besteht the lion blog, musste ich einen zweiten Account extra für diese Website anlegen (und dazu eine andere Email-Adresse verwenden). Das zweite Repo kann einen beliebigen Namen tragen. Besser wäre es allerdings, eine Bezeichnung mit source oder Hugo zu verwenden (damit man erkennt, wozu dieses Repo dient). Dorthin kommt das Eltern-Verzeichnis von public. Jetzt kommt der &rsquo;tricky part&rsquo;: Das public-Verzeichnis wird per submodule mit dem Eltern-Verzeichnis verbunden. $ git submodule add -b main -f https://github.com/USER/USER.github.io.git public Eine kleine, aber wichtige Info: ich habe bemerkt, dass man - nach dem Erstellen eines Repos - besser nicht im Webbrowser die Back-Buttons benutzen soll, um zurück zu gehen. Dies macht (fast) alle bisherigen Einstellungen rückgängig. Also: einfach den Tab schließen. Ab jetzt muss ich beide Repos bei jeder Änderung mit git &lsquo;bearbeiten&rsquo;. $ hugo new post/&lt;Name_des_posts&gt;.md ## mit Editor bearbeiten (draft auf &#39;false&#39; setzen) $ hugo server -D	## Kontrolle; startet lokalen Server $ Crtl-C ## lokalen Server beenden $ hugo ## Website in /public erstellen $ git add .	## git-Befehle, auch im /public directory eingeben $ git commit -m &#34;einen commit schreiben&#34; $ git push -u origin main Voilà! Zum Schluss noch ein Bild von einem Löwen:
 Thank you for choosing After Dark.
 ]]></content:encoded>
     </item>
@@ -37,12 +37,12 @@ Thank you for choosing After Dark.
       <pubDate>Tue, 26 Oct 2021 08:21:26 UT</pubDate>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/post/mein-zweiter-eintrag/</guid>
-      <description>Dies ist mein zweiter Eintrag. Gerade habe ich etwas entdeckt, das mich mit &amp;lsquo;After Dark&amp;rsquo; weiterbringt: im &amp;lsquo;Header&amp;rsquo; des posts habe ich die Zeile &amp;lsquo;draft = true&amp;rsquo; gelöscht. Damit wurden alle posts nach public/ kopiert.
-Mit diesem post probiere ich was Neues - ich werde nochmals &amp;lsquo;hugo&amp;rsquo; laufen lassen. Ich bin gespannt, was passiert.
+      <description>Dies ist mein zweiter Eintrag. Gerade habe ich etwas entdeckt, das mich mit &lsquo;After Dark&rsquo; weiterbringt: im &lsquo;Header&rsquo; des posts habe ich die Zeile &lsquo;draft = true&rsquo; gelöscht. Damit wurden alle posts nach public/ kopiert.
+Mit diesem post probiere ich was Neues - ich werde nochmals &lsquo;hugo&rsquo; laufen lassen. Ich bin gespannt, was passiert.
 Nationalfeiertag Ein wunderschöner Tag - prachtvolles Wetter. Nach dem Mittagessen waren wir im Wald hinter dem Haus spazieren.</description>
       <category domain="https://greatsilence.github.io/categories/hacking">Hacking</category>
-      <content:encoded><![CDATA[Dies ist mein zweiter Eintrag. Gerade habe ich etwas entdeckt, das mich mit &amp;lsquo;After Dark&amp;rsquo; weiterbringt: im &amp;lsquo;Header&amp;rsquo; des posts habe ich die Zeile &amp;lsquo;draft = true&amp;rsquo; gelöscht. Damit wurden alle posts nach public/ kopiert.
-Mit diesem post probiere ich was Neues - ich werde nochmals &amp;lsquo;hugo&amp;rsquo; laufen lassen. Ich bin gespannt, was passiert.
+      <content:encoded><![CDATA[Dies ist mein zweiter Eintrag. Gerade habe ich etwas entdeckt, das mich mit &lsquo;After Dark&rsquo; weiterbringt: im &lsquo;Header&rsquo; des posts habe ich die Zeile &lsquo;draft = true&rsquo; gelöscht. Damit wurden alle posts nach public/ kopiert.
+Mit diesem post probiere ich was Neues - ich werde nochmals &lsquo;hugo&rsquo; laufen lassen. Ich bin gespannt, was passiert.
 Nationalfeiertag Ein wunderschöner Tag - prachtvolles Wetter. Nach dem Mittagessen waren wir im Wald hinter dem Haus spazieren. Die Farbenpracht der Bäume ist atemberaubend. Anschließend war ich mit den Kindern noch beim Skaterpark - leider war er geschlossen; der Pumptrack ist noch nicht fertig. Ich kann mir gut vorstellen, dass die Jugendlichen hier ein tolles Sport-Paradies vorfinden werden.
 Wie fügt man ein Bild ein?
 Das ist ein schönes Foto von Grödig. Jetzt habe ich zwei Repos auf Github - so ganz durchschaue ich das nicht. Dieser Text ist ein Test, ob der Workflow überhaupt klappt. Ich schreibe an diesem Text weiter - warum wird der Text nicht veröffentlicht? Wow - es hat doch geklappt. Jetzt ergänze ich den Text und schaue mal was passiert.
@@ -67,7 +67,7 @@ Nina mach uns große Freude.
 fett oder kuriv
 Ein Kink zu meinem anderen Blog the lion blog
 Ein Code Block
-(use-package telega :load-path &amp;#34;~/.emacs.d/elpa/telega-20211014.927/telega.el&amp;#34; :commands (telega) :defer t) Thank you for choosing After Dark.
+(use-package telega :load-path &#34;~/.emacs.d/elpa/telega-20211014.927/telega.el&#34; :commands (telega) :defer t) Thank you for choosing After Dark.
 ]]></content:encoded>
     </item>
     <item>
@@ -111,7 +111,7 @@ Tip: This message appears below a Manual Summary Split. The above tip uses a sho
 The Module System, for example, provides a module to display image animations with alpha transparency and something not possible using a GIF:
 If you do not see the above animation, you may install the Fractal Forest module yourself or reinstall After Dark using Quick Install for instant setup.
 Review the Online Help to learn about other useful features such as the Section Menus navigational aid, responsive Post Images, offline Fuzzy Search and more.
-If online help isn&amp;rsquo;t running, go ahead and start it using the corresponding command from the following cheat sheet within your site directory:
+If online help isn&rsquo;t running, go ahead and start it using the corresponding command from the following cheat sheet within your site directory:
 # After Dark scripts ./themes/after-dark/bin/upgrade # check for updates and upgrade ./themes/after-dark/bin/help # start online help docs ./themes/after-dark/bin/install # run the quick installer # Hugo commands hugo # build site with default settings hugo --minify # build with minified sources (hugo 0.47 and above) hugo --config config.prod.toml # build with custom config hugo --templateMetrics # generate template metrics hugo new about.md # generate page content hugo new post/coming-soon.md # generate new post content hugo serve # serve locally with default settings hugo serve --buildDrafts --navigateToChanged # serve with drafts for editing hugo serve --buildExpired # serve locally showing expired content hugo serve --disableLiveReload # serve locally w/live reload disabled hugo list drafts # list draft content hugo list expired # list expired content hugo list future # list future content hugo [serve] --debug # build or serve hugo with debug info hugo [command] --help Thank you for choosing After Dark.
 ]]></content:encoded>
     </item>

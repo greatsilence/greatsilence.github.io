@@ -10,10 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 10.3.2 (Hugo 0.123.7)</generator>
+    <generator>After Dark 10.3.2 (Hugo 0.133.0)</generator>
     <language>en-US</language>
-    <copyright>Copyright &amp;copy; 2024 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 25 Apr 2024 12:51:11 UT</lastBuildDate>
+    <copyright>Copyright &copy; 2024 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Sun, 15 Sep 2024 18:17:06 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doom Emacs vs Spacemacs vs Emacs</title>
@@ -21,11 +21,11 @@
       <pubDate>Mon, 23 Oct 2023 08:24:00 UT</pubDate>
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20231023t102416--doom-emacs-vs-spacemacs-vs-emacs__emacs/</guid>
-      <description>Doom Emacs &#43; Spacemacs Ich hab beide probiert und relativ schnell wieder aufgegeben: sie starten zwar schneller. Der Unterschied ist jedoch nicht wesentlich. Die Konfiguration von beiden ist allerdings wirklich kompliziert. Ein großer Nachteil: Doom ist va bei der agenda sehr langsam.
-Zweitens Daher bleibe ich bei &amp;ldquo;meinem&amp;rdquo; Emacs.</description>
+      <description>Doom Emacs + Spacemacs Ich hab beide probiert und relativ schnell wieder aufgegeben: sie starten zwar schneller. Der Unterschied ist jedoch nicht wesentlich. Die Konfiguration von beiden ist allerdings wirklich kompliziert. Ein großer Nachteil: Doom ist va bei der agenda sehr langsam.
+Zweitens Daher bleibe ich bei &ldquo;meinem&rdquo; Emacs.</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
-      <content:encoded><![CDATA[Doom Emacs &#43; Spacemacs Ich hab beide probiert und relativ schnell wieder aufgegeben: sie starten zwar schneller. Der Unterschied ist jedoch nicht wesentlich. Die Konfiguration von beiden ist allerdings wirklich kompliziert. Ein großer Nachteil: Doom ist va bei der agenda sehr langsam.
-Zweitens Daher bleibe ich bei &amp;ldquo;meinem&amp;rdquo; Emacs.
+      <content:encoded><![CDATA[Doom Emacs + Spacemacs Ich hab beide probiert und relativ schnell wieder aufgegeben: sie starten zwar schneller. Der Unterschied ist jedoch nicht wesentlich. Die Konfiguration von beiden ist allerdings wirklich kompliziert. Ein großer Nachteil: Doom ist va bei der agenda sehr langsam.
+Zweitens Daher bleibe ich bei &ldquo;meinem&rdquo; Emacs.
 ]]></content:encoded>
     </item>
     <item>
@@ -35,15 +35,15 @@ Zweitens Daher bleibe ich bei &amp;ldquo;meinem&amp;rdquo; Emacs.
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20230925t204119--was-gibt-es-neues__emacs_jesus/</guid>
       <description>Schule Anders als zum Ende des letzten Schuljahres angekündigt wird es dieses Jahr 2023/24 nur zwei statt drei 1. Klassen geben. Da sich zusätzlich in meiner anderen Schule sehr viele katholische Schüler vom RU abgemeldet haben, bleiben dort nur mehr vier (!) Schüler übrig. Das ergibt gerade einmal eine Stunde pro Woche - für eine Schule mit über 200 Schülern. Organisatorisch heißt dies: eine Doppelstunde alle zwei Wochen.
-Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &amp;ldquo;Chefin&amp;rdquo; kümmert sich darum.</description>
+Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &ldquo;Chefin&rdquo; kümmert sich darum.</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
       <content:encoded><![CDATA[Schule Anders als zum Ende des letzten Schuljahres angekündigt wird es dieses Jahr 2023/24 nur zwei statt drei 1. Klassen geben. Da sich zusätzlich in meiner anderen Schule sehr viele katholische Schüler vom RU abgemeldet haben, bleiben dort nur mehr vier (!) Schüler übrig. Das ergibt gerade einmal eine Stunde pro Woche - für eine Schule mit über 200 Schülern. Organisatorisch heißt dies: eine Doppelstunde alle zwei Wochen.
-Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &amp;ldquo;Chefin&amp;rdquo; kümmert sich darum. Ich könnte in meiner Stammschule nachfragen, ob es eventuell für mich noch eine Stunde gäbe. Was ich mir kaum vorstellen kann - aber fragen kostet nichts.
-Natürlich bedeutet dies ein wenig an finanziellen Einbußen. Vielmehr jedoch schmerzt das für die Moral - so viel Hingabe - kaum Retour. Im Gegenteil: alle Schüler vom vorigen Jahr haben sich abgemeldet. Das tut weh. Das spürt man keine Anerkennung, Dankbarkeit, &amp;hellip; was bleibt ist der Fade Geschmack von Gleichgültigkeit. Viele Christen werden oder sind gleichgültig.
+Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &ldquo;Chefin&rdquo; kümmert sich darum. Ich könnte in meiner Stammschule nachfragen, ob es eventuell für mich noch eine Stunde gäbe. Was ich mir kaum vorstellen kann - aber fragen kostet nichts.
+Natürlich bedeutet dies ein wenig an finanziellen Einbußen. Vielmehr jedoch schmerzt das für die Moral - so viel Hingabe - kaum Retour. Im Gegenteil: alle Schüler vom vorigen Jahr haben sich abgemeldet. Das tut weh. Das spürt man keine Anerkennung, Dankbarkeit, &hellip; was bleibt ist der Fade Geschmack von Gleichgültigkeit. Viele Christen werden oder sind gleichgültig.
 Jesus Mein geistliches Leben bedarf dringend einer Neuorientierung und Vertiefung, sonst verhungere ich innerlich. Mehr Gebet, intensiveres Gebet, Bibellesen; geistliche Lektüre (B16, Romano Guardini, etc. - in meiner Bibliothek wimmelt es von guten Büchern).
-Update Wie schnell kann es gehen, und unsere Welt kann sich &amp;ldquo;ändern&amp;rdquo;. Gestern noch war ich in Sorge um unsere finanzielle Situation. Und heute hat mich unsere Direktorin während des Unterrichts herausgeholt und mir eine freudige Nachricht überbracht. Frau Steinberger (Schulreferentin für Hallein) hat für mich eine Stunde in einer Volksschule gefunden: GTS, am Mittwoch von 13h55-14h45.
+Update Wie schnell kann es gehen, und unsere Welt kann sich &ldquo;ändern&rdquo;. Gestern noch war ich in Sorge um unsere finanzielle Situation. Und heute hat mich unsere Direktorin während des Unterrichts herausgeholt und mir eine freudige Nachricht überbracht. Frau Steinberger (Schulreferentin für Hallein) hat für mich eine Stunde in einer Volksschule gefunden: GTS, am Mittwoch von 13h55-14h45.
 Was zeigt mir das? Wenn ich meine Situation in Gottes Hände lege (und in jene meiner Vorgesetzten), dann wendet es sich zum Guten (vgl Römerbrief).
-Mittlerweile sitze ich in der Kletterhalle Salzburg Nord und schreibe diesen Text. Gabriel beginnt seinen Kletterkurs in diesem Schuljahr. Leider hat Gabriel wieder einmal Schulmaterial vergessen und musste es in der Schule holen fahren. Ich hoffe, er bemüht sich in Zukunft besser, und bringt das nötige &amp;ldquo;Zeug&amp;rdquo; nach Hause.
+Mittlerweile sitze ich in der Kletterhalle Salzburg Nord und schreibe diesen Text. Gabriel beginnt seinen Kletterkurs in diesem Schuljahr. Leider hat Gabriel wieder einmal Schulmaterial vergessen und musste es in der Schule holen fahren. Ich hoffe, er bemüht sich in Zukunft besser, und bringt das nötige &ldquo;Zeug&rdquo; nach Hause.
 Aber eigentlich hat dieses Schuljahr für Gabriel wesentlich positiver begonnen als das erste Schuljahr in der MS.
 Wie kann ich den Copyright-Eintrag in jedem Post ändern? Das muss ich noch nachforschen? Gibt es wo eine post-Template dafür? Habe es gefunden: ich habe die Datei ~/flying-toasters/config.toml geändert und beim Copyright-Eintrag (template?) das Jahr hinzugefügt.
 So, jetzt wird dieser Eintrag gepostet.
@@ -68,11 +68,11 @@ Zweitens Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sonder
       <pubDate>Sat, 22 Jul 2023 13:44:00 UT</pubDate>
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20230722t154458--denote-hugo-2__public/</guid>
-      <description>Erstens Ich probiere die `#&#43;hugo_categories:` aus.
-Zweitens schau ma mal&amp;hellip;</description>
+      <description>Erstens Ich probiere die `#+hugo_categories:` aus.
+Zweitens schau ma mal&hellip;</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
-      <content:encoded><![CDATA[Erstens Ich probiere die `#&#43;hugo_categories:` aus.
-Zweitens schau ma mal&amp;hellip;
+      <content:encoded><![CDATA[Erstens Ich probiere die `#+hugo_categories:` aus.
+Zweitens schau ma mal&hellip;
 ]]></content:encoded>
     </item>
     <item>
@@ -82,12 +82,12 @@ Zweitens schau ma mal&amp;hellip;
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20230722t003306--denote-hugo__public/</guid>
       <description>Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.
-Markdown Ich hab in Emacs &#43; eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.
+Markdown Ich hab in Emacs + eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.
 org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht.</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
       <content:encoded><![CDATA[Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.
-Markdown Ich hab in Emacs &#43; eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.
-org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht. Sieht vielversprechend aus, allerdings: damit das funktioniert, muss ich bestimmte files, scripts, etc &amp;hellip; erstellen. Und genau DAS wird nicht ausreichend bis gar nicht erklärt.
+Markdown Ich hab in Emacs + eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.
+org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht. Sieht vielversprechend aus, allerdings: damit das funktioniert, muss ich bestimmte files, scripts, etc &hellip; erstellen. Und genau DAS wird nicht ausreichend bis gar nicht erklärt.
 ]]></content:encoded>
     </item>
     <item>
@@ -96,14 +96,14 @@ org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket ema
       <pubDate>Fri, 21 Jul 2023 19:41:59 UT</pubDate>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/post/neuer_versuch/</guid>
-      <description>So, hier beginne ich neu. Eine andere Möglichkeit ist, dass ich in Emacs eshell öffne und dort die Befehle ausführe, welche ich in dem Post &amp;ldquo;Github..&amp;rdquo; beschrieben habe.
-Positives Natürlich ist das möglich. Und in Emacs lässt sich Markdown problemlos bearbeiten. Bei den Überschriften ist zu beachten: Headlines mit einem &amp;ldquo;#&amp;rdquo; erhalten im Blog eine durchgezogene Linie. Ab zwei &amp;ldquo;##&amp;rdquo; verschwindet diese Linie - siehe Blog. Headlines werden in Markdown mit dem Befehl: C-c C-s 1(2,3, &amp;hellip; - Level) eingefügt.</description>
+      <description>So, hier beginne ich neu. Eine andere Möglichkeit ist, dass ich in Emacs eshell öffne und dort die Befehle ausführe, welche ich in dem Post &ldquo;Github..&rdquo; beschrieben habe.
+Positives Natürlich ist das möglich. Und in Emacs lässt sich Markdown problemlos bearbeiten. Bei den Überschriften ist zu beachten: Headlines mit einem &ldquo;#&rdquo; erhalten im Blog eine durchgezogene Linie. Ab zwei &ldquo;##&rdquo; verschwindet diese Linie - siehe Blog. Headlines werden in Markdown mit dem Befehl: C-c C-s 1(2,3, &hellip; - Level) eingefügt.</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
-      <content:encoded><![CDATA[So, hier beginne ich neu. Eine andere Möglichkeit ist, dass ich in Emacs eshell öffne und dort die Befehle ausführe, welche ich in dem Post &amp;ldquo;Github..&amp;rdquo; beschrieben habe.
-Positives Natürlich ist das möglich. Und in Emacs lässt sich Markdown problemlos bearbeiten. Bei den Überschriften ist zu beachten: Headlines mit einem &amp;ldquo;#&amp;rdquo; erhalten im Blog eine durchgezogene Linie. Ab zwei &amp;ldquo;##&amp;rdquo; verschwindet diese Linie - siehe Blog. Headlines werden in Markdown mit dem Befehl: C-c C-s 1(2,3, &amp;hellip; - Level) eingefügt. Was ist eine &amp;ldquo;automatische Headline&amp;rdquo; (C-c C-s h)? Aha, das fügt eine nächste Hedaline auf dem selben Niveau wie die vorhergehende ein.
+      <content:encoded><![CDATA[So, hier beginne ich neu. Eine andere Möglichkeit ist, dass ich in Emacs eshell öffne und dort die Befehle ausführe, welche ich in dem Post &ldquo;Github..&rdquo; beschrieben habe.
+Positives Natürlich ist das möglich. Und in Emacs lässt sich Markdown problemlos bearbeiten. Bei den Überschriften ist zu beachten: Headlines mit einem &ldquo;#&rdquo; erhalten im Blog eine durchgezogene Linie. Ab zwei &ldquo;##&rdquo; verschwindet diese Linie - siehe Blog. Headlines werden in Markdown mit dem Befehl: C-c C-s 1(2,3, &hellip; - Level) eingefügt. Was ist eine &ldquo;automatische Headline&rdquo; (C-c C-s h)? Aha, das fügt eine nächste Hedaline auf dem selben Niveau wie die vorhergehende ein.
 Gibt es sog. capture-templates in Markdown? Nein, gibt es nicht.
 Negatives Was nicht so gut klappt: ich kann nicht die Server-Adresse anklicken. Das liegt wohl an eshell; eventuell geht das mit anderen Emacs-Methoden (so etwas wie: url markieren und diesen Link öffnen?). Hab es gefunden: browse-url-firefox. In Konsole kann ich mit C-c den Hugo Server stoppen. Das geht in eshell nicht.
-Ein weiterer &amp;ldquo;Nachteil&amp;rdquo;: ich kenne Markdown kaum. Es wird wohl einfacher sein, ein org-file zu schreiben (mit dem denote-template) und dieses hinterher nach Markdown zu exportieren, wobei noch ein paar Dinge im Header des Files zu verändern sind.
+Ein weiterer &ldquo;Nachteil&rdquo;: ich kenne Markdown kaum. Es wird wohl einfacher sein, ein org-file zu schreiben (mit dem denote-template) und dieses hinterher nach Markdown zu exportieren, wobei noch ein paar Dinge im Header des Files zu verändern sind.
 Conclusion So: ich werde wohl bei org-mode bleiben.
 Thank you for choosing After Dark.
 ]]></content:encoded>
