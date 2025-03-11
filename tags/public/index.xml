@@ -10,10 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 10.3.2 (Hugo 0.133.0)</generator>
+    <generator>After Dark 10.3.2 (Hugo 0.145.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; 2024 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sun, 15 Sep 2024 18:33:20 UT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 08:28:55 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/tags/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Neuer Post</title>
@@ -22,7 +22,8 @@
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20230724t002600--neuer-post__public/</guid>
       <description>Erstens Wir haben uns heute Avatar Teil 2 angeschaut.
-Zweitens Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sondern auf der gegenüber liegenden Seite - Gerersdorf (?). Kleines Bad, aber sehr schön, sauber und das Wasser war so erfrischend.</description>
+Zweitens Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sondern auf der gegenüber liegenden Seite - Gerersdorf (?). Kleines Bad, aber sehr schön, sauber und das Wasser war so erfrischend.
+</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
       <content:encoded><![CDATA[Erstens Wir haben uns heute Avatar Teil 2 angeschaut.
 Zweitens Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sondern auf der gegenüber liegenden Seite - Gerersdorf (?). Kleines Bad, aber sehr schön, sauber und das Wasser war so erfrischend.
@@ -35,7 +36,8 @@ Zweitens Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sonder
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20230722t154458--denote-hugo-2__public/</guid>
       <description>Erstens Ich probiere die `#+hugo_categories:` aus.
-Zweitens schau ma mal&hellip;</description>
+Zweitens schau ma mal&hellip;
+</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
       <content:encoded><![CDATA[Erstens Ich probiere die `#+hugo_categories:` aus.
 Zweitens schau ma mal&hellip;
@@ -49,7 +51,8 @@ Zweitens schau ma mal&hellip;
       <guid>https://greatsilence.github.io/post/20230722t003306--denote-hugo__public/</guid>
       <description>Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.
 Markdown Ich hab in Emacs + eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.
-org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht.</description>
+org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht. Sieht vielversprechend aus, allerdings: damit das funktioniert, muss ich bestimmte files, scripts, etc &hellip; erstellen. Und genau DAS wird nicht ausreichend bis gar nicht erklärt.
+</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
       <content:encoded><![CDATA[Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.
 Markdown Ich hab in Emacs + eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.
@@ -62,7 +65,7 @@ org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket ema
       <pubDate>Fri, 21 Jul 2023 16:07:00 UT</pubDate>
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20230721t180735--f%C3%BCnfter-eintrag__public/</guid>
-      <description>Erstens Zweitens </description>
+      <description>Erstens Zweitens</description>
       <category domain="https://greatsilence.github.io/categories/theology">Theology</category>
       <content:encoded><![CDATA[Erstens Zweitens ]]></content:encoded>
     </item>
@@ -74,7 +77,7 @@ org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket ema
       <guid>https://greatsilence.github.io/post/20230721t154120--dritter-eintrag__public/</guid>
       <description>So diesmal hab ich im Header des Files &ldquo;Author&rdquo; hinzugefügt.
 Erstens Mein Ziel ist es, ein org-capture zu erstellen. Danach muss das capture nur mehr nach Hugo exportiert werden. Im besten Fall könnte dies in einem Schritt und automatisiert geschehen.
-Zweitens Drittens </description>
+Zweitens Drittens</description>
       <category domain="https://greatsilence.github.io/categories/theology">Theology</category>
       <content:encoded><![CDATA[So diesmal hab ich im Header des Files &ldquo;Author&rdquo; hinzugefügt.
 Erstens Mein Ziel ist es, ein org-capture zu erstellen. Danach muss das capture nur mehr nach Hugo exportiert werden. Im besten Fall könnte dies in einem Schritt und automatisiert geschehen.
@@ -88,7 +91,8 @@ Zweitens Drittens ]]></content:encoded>
       <guid>https://greatsilence.github.io/post/20230721t090746--zweiter-eintrag-heute__public/</guid>
       <description>Hier schreibe ich weiter.
 eine erste Überschrift mit ihrem Text
-und eine weitere und so weiter&hellip;</description>
+und eine weitere und so weiter&hellip;
+</description>
       <content:encoded><![CDATA[Hier schreibe ich weiter.
 eine erste Überschrift mit ihrem Text
 und eine weitere und so weiter&hellip;
@@ -102,7 +106,8 @@ und eine weitere und so weiter&hellip;
       <guid>https://greatsilence.github.io/post/20230721t084057--neuer-eintrag-auf-after-dark__public/</guid>
       <description>Hier kommt etwas Text.
 Hier eine Überschrift und der Text
-und so weiter schau ma mal&hellip;</description>
+und so weiter schau ma mal&hellip;
+</description>
       <content:encoded><![CDATA[Hier kommt etwas Text.
 Hier eine Überschrift und der Text
 und so weiter schau ma mal&hellip;

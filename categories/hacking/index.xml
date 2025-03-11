@@ -10,10 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 10.3.2 (Hugo 0.133.0)</generator>
+    <generator>After Dark 10.3.2 (Hugo 0.145.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; 2024 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sun, 15 Sep 2024 18:33:20 UT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 08:28:55 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/categories/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posting Hugo Github</title>
@@ -23,7 +23,8 @@
       <guid>https://greatsilence.github.io/post/posting-hugo-github/</guid>
       <description>Wow, das war eine &rsquo;lange Reise&rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
 Jetzt habe ich&rsquo;s endlich geschafft. Im Folgenden beschreibe ich den Workflow, um eine statische Website mit Hugo und After-Dark auf Github zu betreiben.
-Workflow Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.</description>
+Workflow Zuerst After-Dark und Hugo installieren. Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, &hellip;). Das Repo für den Blog-Inhalt muss den Namen USER.github.io besitzen. Hier lade ich per Git den Inhalt des public Verzeichnisses hoch. Da auf meinem ersten Account bereits ein Repo mit diesem USER Namen besteht the lion blog, musste ich einen zweiten Account extra für diese Website anlegen (und dazu eine andere Email-Adresse verwenden). Das zweite Repo kann einen beliebigen Namen tragen. Besser wäre es allerdings, eine Bezeichnung mit source oder Hugo zu verwenden (damit man erkennt, wozu dieses Repo dient). Dorthin kommt das Eltern-Verzeichnis von public. Jetzt kommt der &rsquo;tricky part&rsquo;: Das public-Verzeichnis wird per submodule mit dem Eltern-Verzeichnis verbunden. $ git submodule add -b main -f https://github.com/USER/USER.github.io.git public Eine kleine, aber wichtige Info: ich habe bemerkt, dass man - nach dem Erstellen eines Repos - besser nicht im Webbrowser die Back-Buttons benutzen soll, um zurück zu gehen. Dies macht (fast) alle bisherigen Einstellungen rückgängig. Also: einfach den Tab schließen. Ab jetzt muss ich beide Repos bei jeder Änderung mit git &lsquo;bearbeiten&rsquo;. $ hugo new post/&lt;Name_des_posts&gt;.md ## mit Editor bearbeiten (draft auf &#39;false&#39; setzen) $ hugo server -D	## Kontrolle; startet lokalen Server $ Crtl-C ## lokalen Server beenden $ hugo ## Website in /public erstellen $ git add .	## git-Befehle, auch im /public directory eingeben $ git commit -m &#34;einen commit schreiben&#34; $ git push -u origin main Voilà! Zum Schluss noch ein Bild von einem Löwen:
+</description>
       <category domain="https://greatsilence.github.io/categories/hacking">Hacking</category>
       <content:encoded><![CDATA[Wow, das war eine &rsquo;lange Reise&rsquo; bis zu dieser Website. Mehrere Blogs habe ich besucht.
 Jetzt habe ich&rsquo;s endlich geschafft. Im Folgenden beschreibe ich den Workflow, um eine statische Website mit Hugo und After-Dark auf Github zu betreiben.
@@ -39,7 +40,8 @@ Thank you for choosing After Dark.
       <guid>https://greatsilence.github.io/post/mein-zweiter-eintrag/</guid>
       <description>Dies ist mein zweiter Eintrag. Gerade habe ich etwas entdeckt, das mich mit &lsquo;After Dark&rsquo; weiterbringt: im &lsquo;Header&rsquo; des posts habe ich die Zeile &lsquo;draft = true&rsquo; gelöscht. Damit wurden alle posts nach public/ kopiert.
 Mit diesem post probiere ich was Neues - ich werde nochmals &lsquo;hugo&rsquo; laufen lassen. Ich bin gespannt, was passiert.
-Nationalfeiertag Ein wunderschöner Tag - prachtvolles Wetter. Nach dem Mittagessen waren wir im Wald hinter dem Haus spazieren.</description>
+Nationalfeiertag Ein wunderschöner Tag - prachtvolles Wetter. Nach dem Mittagessen waren wir im Wald hinter dem Haus spazieren. Die Farbenpracht der Bäume ist atemberaubend. Anschließend war ich mit den Kindern noch beim Skaterpark - leider war er geschlossen; der Pumptrack ist noch nicht fertig. Ich kann mir gut vorstellen, dass die Jugendlichen hier ein tolles Sport-Paradies vorfinden werden.
+</description>
       <category domain="https://greatsilence.github.io/categories/hacking">Hacking</category>
       <content:encoded><![CDATA[Dies ist mein zweiter Eintrag. Gerade habe ich etwas entdeckt, das mich mit &lsquo;After Dark&rsquo; weiterbringt: im &lsquo;Header&rsquo; des posts habe ich die Zeile &lsquo;draft = true&rsquo; gelöscht. Damit wurden alle posts nach public/ kopiert.
 Mit diesem post probiere ich was Neues - ich werde nochmals &lsquo;hugo&rsquo; laufen lassen. Ich bin gespannt, was passiert.
@@ -57,7 +59,8 @@ Thank you for choosing After Dark.
       <guid>https://greatsilence.github.io/post/mein-erster-eintrag/</guid>
       <description>Seit gestern (24.10.2021) lebt eine neue Mitbewohnerin bei uns: Nina, eine kleine schwarze Katze. Beli hat sie uns geschenkt.
 Die Katze hat durch ihre Gegenwart bereits unsere Familie verändert - wir sind ruhiger geworden.
-Seit gestern beschäftige ich mich After Dark - der Blog schaut super schön aus. Derzeit läuft der Blog nur lokal. Wie ich diesen Blog auf einer Website publizieren kann, habe ich noch nicht ganz verstanden. Mit HUGO könnte ich es auf Seiten wie Github oder Gitlab (Kosten) probieren.</description>
+Seit gestern beschäftige ich mich After Dark - der Blog schaut super schön aus. Derzeit läuft der Blog nur lokal. Wie ich diesen Blog auf einer Website publizieren kann, habe ich noch nicht ganz verstanden. Mit HUGO könnte ich es auf Seiten wie Github oder Gitlab (Kosten) probieren.
+</description>
       <category domain="https://greatsilence.github.io/categories/hacking">Hacking</category>
       <content:encoded><![CDATA[Seit gestern (24.10.2021) lebt eine neue Mitbewohnerin bei uns: Nina, eine kleine schwarze Katze. Beli hat sie uns geschenkt.
 Die Katze hat durch ihre Gegenwart bereits unsere Familie verändert - wir sind ruhiger geworden.
@@ -80,7 +83,8 @@ Ein Code Block
 noch eine Überschrift mit Text.
 ein Unterpunkt und sein Text.
 Schlusspunkt und aus.
-Thank you for choosing After Dark.</description>
+Thank you for choosing After Dark.
+</description>
       <category domain="https://greatsilence.github.io/categories/hacking">Hacking</category>
       <content:encoded><![CDATA[erste Überschrift mit einem Text
 noch eine Überschrift mit Text.

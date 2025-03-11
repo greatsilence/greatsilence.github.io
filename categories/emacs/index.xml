@@ -10,10 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 10.3.2 (Hugo 0.133.0)</generator>
+    <generator>After Dark 10.3.2 (Hugo 0.145.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; 2024 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sun, 15 Sep 2024 18:33:20 UT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 08:28:55 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doom Emacs vs Spacemacs vs Emacs</title>
@@ -22,7 +22,8 @@
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20231023t102416--doom-emacs-vs-spacemacs-vs-emacs__emacs/</guid>
       <description>Doom Emacs + Spacemacs Ich hab beide probiert und relativ schnell wieder aufgegeben: sie starten zwar schneller. Der Unterschied ist jedoch nicht wesentlich. Die Konfiguration von beiden ist allerdings wirklich kompliziert. Ein großer Nachteil: Doom ist va bei der agenda sehr langsam.
-Zweitens Daher bleibe ich bei &ldquo;meinem&rdquo; Emacs.</description>
+Zweitens Daher bleibe ich bei &ldquo;meinem&rdquo; Emacs.
+</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
       <content:encoded><![CDATA[Doom Emacs + Spacemacs Ich hab beide probiert und relativ schnell wieder aufgegeben: sie starten zwar schneller. Der Unterschied ist jedoch nicht wesentlich. Die Konfiguration von beiden ist allerdings wirklich kompliziert. Ein großer Nachteil: Doom ist va bei der agenda sehr langsam.
 Zweitens Daher bleibe ich bei &ldquo;meinem&rdquo; Emacs.
@@ -35,7 +36,8 @@ Zweitens Daher bleibe ich bei &ldquo;meinem&rdquo; Emacs.
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20230925t204119--was-gibt-es-neues__emacs_jesus/</guid>
       <description>Schule Anders als zum Ende des letzten Schuljahres angekündigt wird es dieses Jahr 2023/24 nur zwei statt drei 1. Klassen geben. Da sich zusätzlich in meiner anderen Schule sehr viele katholische Schüler vom RU abgemeldet haben, bleiben dort nur mehr vier (!) Schüler übrig. Das ergibt gerade einmal eine Stunde pro Woche - für eine Schule mit über 200 Schülern. Organisatorisch heißt dies: eine Doppelstunde alle zwei Wochen.
-Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &ldquo;Chefin&rdquo; kümmert sich darum.</description>
+Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &ldquo;Chefin&rdquo; kümmert sich darum. Ich könnte in meiner Stammschule nachfragen, ob es eventuell für mich noch eine Stunde gäbe. Was ich mir kaum vorstellen kann - aber fragen kostet nichts.
+</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
       <content:encoded><![CDATA[Schule Anders als zum Ende des letzten Schuljahres angekündigt wird es dieses Jahr 2023/24 nur zwei statt drei 1. Klassen geben. Da sich zusätzlich in meiner anderen Schule sehr viele katholische Schüler vom RU abgemeldet haben, bleiben dort nur mehr vier (!) Schüler übrig. Das ergibt gerade einmal eine Stunde pro Woche - für eine Schule mit über 200 Schülern. Organisatorisch heißt dies: eine Doppelstunde alle zwei Wochen.
 Ich habe laut Vertrag Anspruch auf eine volle Lehrverpflichtung, meine &ldquo;Chefin&rdquo; kümmert sich darum. Ich könnte in meiner Stammschule nachfragen, ob es eventuell für mich noch eine Stunde gäbe. Was ich mir kaum vorstellen kann - aber fragen kostet nichts.
@@ -56,7 +58,8 @@ So, jetzt wird dieser Eintrag gepostet.
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20230724t002600--neuer-post__public/</guid>
       <description>Erstens Wir haben uns heute Avatar Teil 2 angeschaut.
-Zweitens Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sondern auf der gegenüber liegenden Seite - Gerersdorf (?). Kleines Bad, aber sehr schön, sauber und das Wasser war so erfrischend.</description>
+Zweitens Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sondern auf der gegenüber liegenden Seite - Gerersdorf (?). Kleines Bad, aber sehr schön, sauber und das Wasser war so erfrischend.
+</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
       <content:encoded><![CDATA[Erstens Wir haben uns heute Avatar Teil 2 angeschaut.
 Zweitens Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sondern auf der gegenüber liegenden Seite - Gerersdorf (?). Kleines Bad, aber sehr schön, sauber und das Wasser war so erfrischend.
@@ -69,7 +72,8 @@ Zweitens Heute waren wir am Mattsee baden, und zwar nicht beim Strandbad, sonder
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20230722t154458--denote-hugo-2__public/</guid>
       <description>Erstens Ich probiere die `#+hugo_categories:` aus.
-Zweitens schau ma mal&hellip;</description>
+Zweitens schau ma mal&hellip;
+</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
       <content:encoded><![CDATA[Erstens Ich probiere die `#+hugo_categories:` aus.
 Zweitens schau ma mal&hellip;
@@ -83,7 +87,8 @@ Zweitens schau ma mal&hellip;
       <guid>https://greatsilence.github.io/post/20230722t003306--denote-hugo__public/</guid>
       <description>Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.
 Markdown Ich hab in Emacs + eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.
-org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht.</description>
+org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket emacs-easy-hugo versucht. Sieht vielversprechend aus, allerdings: damit das funktioniert, muss ich bestimmte files, scripts, etc &hellip; erstellen. Und genau DAS wird nicht ausreichend bis gar nicht erklärt.
+</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
       <content:encoded><![CDATA[Somit ist es möglch, ein org-file mit Denote zu erstellen, welches in einem speziellen Verzeichnis gespeichert wird. Anschließend exportiere ich es zu Markdown in das Blog-Verzeichnis. Abschließend muss ich nur mehr die git-Befehle anwenden. Fertig.
 Markdown Ich hab in Emacs + eshell ein md-file erstellt. Sieht nett aus, aber die Möglichkeiten sind äußerst begrenzt, org-mode kann einfach niemand das Wasser reichen.
@@ -97,7 +102,8 @@ org-mode Deshalb bleibe ich bei org-mode. Ich hab heute Abend noch das Paket ema
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/post/neuer_versuch/</guid>
       <description>So, hier beginne ich neu. Eine andere Möglichkeit ist, dass ich in Emacs eshell öffne und dort die Befehle ausführe, welche ich in dem Post &ldquo;Github..&rdquo; beschrieben habe.
-Positives Natürlich ist das möglich. Und in Emacs lässt sich Markdown problemlos bearbeiten. Bei den Überschriften ist zu beachten: Headlines mit einem &ldquo;#&rdquo; erhalten im Blog eine durchgezogene Linie. Ab zwei &ldquo;##&rdquo; verschwindet diese Linie - siehe Blog. Headlines werden in Markdown mit dem Befehl: C-c C-s 1(2,3, &hellip; - Level) eingefügt.</description>
+Positives Natürlich ist das möglich. Und in Emacs lässt sich Markdown problemlos bearbeiten. Bei den Überschriften ist zu beachten: Headlines mit einem &ldquo;#&rdquo; erhalten im Blog eine durchgezogene Linie. Ab zwei &ldquo;##&rdquo; verschwindet diese Linie - siehe Blog. Headlines werden in Markdown mit dem Befehl: C-c C-s 1(2,3, &hellip; - Level) eingefügt. Was ist eine &ldquo;automatische Headline&rdquo; (C-c C-s h)? Aha, das fügt eine nächste Hedaline auf dem selben Niveau wie die vorhergehende ein.
+</description>
       <category domain="https://greatsilence.github.io/categories/emacs">Emacs</category>
       <content:encoded><![CDATA[So, hier beginne ich neu. Eine andere Möglichkeit ist, dass ich in Emacs eshell öffne und dort die Befehle ausführe, welche ich in dem Post &ldquo;Github..&rdquo; beschrieben habe.
 Positives Natürlich ist das möglich. Und in Emacs lässt sich Markdown problemlos bearbeiten. Bei den Überschriften ist zu beachten: Headlines mit einem &ldquo;#&rdquo; erhalten im Blog eine durchgezogene Linie. Ab zwei &ldquo;##&rdquo; verschwindet diese Linie - siehe Blog. Headlines werden in Markdown mit dem Befehl: C-c C-s 1(2,3, &hellip; - Level) eingefügt. Was ist eine &ldquo;automatische Headline&rdquo; (C-c C-s h)? Aha, das fügt eine nächste Hedaline auf dem selben Niveau wie die vorhergehende ein.

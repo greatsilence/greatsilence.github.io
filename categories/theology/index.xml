@@ -10,10 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 10.3.2 (Hugo 0.133.0)</generator>
+    <generator>After Dark 10.3.2 (Hugo 0.145.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; 2024 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sun, 15 Sep 2024 18:33:20 UT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 08:28:55 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/categories/theology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fünfter Eintrag</title>
@@ -21,7 +21,7 @@
       <pubDate>Fri, 21 Jul 2023 16:07:00 UT</pubDate>
       <dc:creator>[Matthias Fuchs]</dc:creator>
       <guid>https://greatsilence.github.io/post/20230721t180735--f%C3%BCnfter-eintrag__public/</guid>
-      <description>Erstens Zweitens </description>
+      <description>Erstens Zweitens</description>
       <category domain="https://greatsilence.github.io/categories/theology">Theology</category>
       <content:encoded><![CDATA[Erstens Zweitens ]]></content:encoded>
     </item>
@@ -33,7 +33,7 @@
       <guid>https://greatsilence.github.io/post/20230721t154120--dritter-eintrag__public/</guid>
       <description>So diesmal hab ich im Header des Files &ldquo;Author&rdquo; hinzugefügt.
 Erstens Mein Ziel ist es, ein org-capture zu erstellen. Danach muss das capture nur mehr nach Hugo exportiert werden. Im besten Fall könnte dies in einem Schritt und automatisiert geschehen.
-Zweitens Drittens </description>
+Zweitens Drittens</description>
       <category domain="https://greatsilence.github.io/categories/theology">Theology</category>
       <content:encoded><![CDATA[So diesmal hab ich im Header des Files &ldquo;Author&rdquo; hinzugefügt.
 Erstens Mein Ziel ist es, ein org-capture zu erstellen. Danach muss das capture nur mehr nach Hugo exportiert werden. Im besten Fall könnte dies in einem Schritt und automatisiert geschehen.
@@ -45,7 +45,9 @@ Zweitens Drittens ]]></content:encoded>
       <pubDate>Thu, 28 Oct 2021 12:49:05 UT</pubDate>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/post/jesus/</guid>
-      <description>Über Jesus Christus haben bereits unzählige Autoren geschrieben, jedesmal mit den unterschiedlichsten Motiven oder Erfahrungen. Dieser Blog-Eintrag ist meine persönliche Annäherung. Er erhebt daher nicht den Anspruch auf Vollständigkeit oder gar Wahrheit. Jedoch ist es gerade die Wahrheit, die wesentlich mit der Person Jesu verbunden ist. Jesus sagt im Johannes-Evangelium: &ldquo;Ich bin der Weg, die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich.&rdquo; - &ldquo;Ich bin dazu geboren und dazu in die Welt gekommen, um für die Wahrheit Zeugnis abzulegen.</description>
+      <description>
+Über Jesus Christus haben bereits unzählige Autoren geschrieben, jedesmal mit den unterschiedlichsten Motiven oder Erfahrungen. Dieser Blog-Eintrag ist meine persönliche Annäherung. Er erhebt daher nicht den Anspruch auf Vollständigkeit oder gar Wahrheit. Jedoch ist es gerade die Wahrheit, die wesentlich mit der Person Jesu verbunden ist. Jesus sagt im Johannes-Evangelium: &ldquo;Ich bin der Weg, die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich.&rdquo; - &ldquo;Ich bin dazu geboren und dazu in die Welt gekommen, um für die Wahrheit Zeugnis abzulegen.&rdquo; Pontius Pilatus stellt Jesus die Frage: &ldquo;Was ist die Wahrheit?&rdquo; Worauf Jesus keine Antwort gibt. Hat Pilatus die falsche Frage gestellt? Hätte er nicht eher fragen sollen: &ldquo;Wer ist die Wahrheit?&rdquo;
+</description>
       <category domain="https://greatsilence.github.io/categories/theology">Theology</category>
       <content:encoded><![CDATA[
 Über Jesus Christus haben bereits unzählige Autoren geschrieben, jedesmal mit den unterschiedlichsten Motiven oder Erfahrungen. Dieser Blog-Eintrag ist meine persönliche Annäherung. Er erhebt daher nicht den Anspruch auf Vollständigkeit oder gar Wahrheit. Jedoch ist es gerade die Wahrheit, die wesentlich mit der Person Jesu verbunden ist. Jesus sagt im Johannes-Evangelium: &ldquo;Ich bin der Weg, die Wahrheit und das Leben. Niemand kommt zum Vater außer durch mich.&rdquo; - &ldquo;Ich bin dazu geboren und dazu in die Welt gekommen, um für die Wahrheit Zeugnis abzulegen.&rdquo; Pontius Pilatus stellt Jesus die Frage: &ldquo;Was ist die Wahrheit?&rdquo; Worauf Jesus keine Antwort gibt. Hat Pilatus die falsche Frage gestellt? Hätte er nicht eher fragen sollen: &ldquo;Wer ist die Wahrheit?&rdquo;

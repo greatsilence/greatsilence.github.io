@@ -226,8 +226,29 @@ a[itemprop="url"]:hover {
       <blockquote itemprop="headline">This text was generated using the After Dark post archetype.</blockquote>
     
   </header>
-  <div itemprop="">Denote Hier erkläre ich meinen Workflow in org-mode und denote für meine persönlichen Blog &ldquo;After Dark&rdquo;.
-C-c n t (denote-template) &ldquo;post&rdquo;-Template Titel eingeben automatisches filetags: hugo Keywords: hugo Hugo-Categories: nur eine Kategorie eintragen Blogtext schreiben save file export to hugo: C-c C-e H H (export to HUGO markdown file) C-c C-e H o (export to Hugo Markdown and open) Git / magit Workflow in Git $ hugo server -D	## Kontrolle; startet lokalen Server $ Crtl-C ## lokalen Server beenden $ hugo ## Website in /public erstellen $ git add .</div>
+  <div itemprop=""><h2 id="denote">Denote</h2>
+<p>Hier erkläre ich meinen Workflow in <code>org-mode</code> und <code>denote</code> für meine persönlichen Blog &ldquo;After Dark&rdquo;.</p>
+<ul>
+<li><code>C-c n t</code> (<code>denote-template</code>) &ldquo;post&rdquo;-Template</li>
+<li>Titel eingeben</li>
+<li>automatisches filetags: hugo</li>
+<li>Keywords: hugo</li>
+<li>Hugo-Categories: nur <strong>eine</strong> Kategorie eintragen</li>
+<li>Blogtext schreiben</li>
+<li>save file</li>
+<li>export to hugo: <code>C-c C-e H H</code> (export to HUGO markdown file)</li>
+<li><code>C-c C-e H o</code> (export to Hugo Markdown and open)</li>
+</ul>
+<h2 id="git-magit">Git / magit</h2>
+<h3 id="workflow-in-git">Workflow in Git</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ hugo server -D			<span class="c1">## Kontrolle; startet lokalen Server</span>
+</span></span><span class="line"><span class="cl">$ Crtl-C 				<span class="c1">## lokalen Server beenden</span>
+</span></span><span class="line"><span class="cl">$ hugo                              <span class="c1">## Website in /public erstellen</span>
+</span></span><span class="line"><span class="cl">$ git add .				<span class="c1">## git-Befehle, auch im /public directory eingeben</span>
+</span></span><span class="line"><span class="cl">$ git commit -m <span class="s2">&#34;einen commit schreiben&#34;</span>
+</span></span><span class="line"><span class="cl">$ git push -u origin main
+</span></span></code></pre></div><h3 id="magit-befehle"><code>magit</code> Befehle</h3>
+<p>Voher in <code>eshell</code> die <code>Hugo</code> Befehle eingeben.</p></div>
   <meta itemprop="inLanguage" content="en-US">
   <meta itemprop="datePublished" content="2024-04-25T09:22:00&#43;02:00">
   <meta itemprop="dateModified" content="2024-04-25T14:22:55&#43;02:00">
