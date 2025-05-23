@@ -4,17 +4,31 @@
     <title>Emacs on After Dark</title>
     <link>https://greatsilence.github.io/tags/emacs/</link>
     <description>Recent content in Emacs on After Dark</description>
-    <image>
-      <title>Emacs on After Dark</title>
-      <link>https://greatsilence.github.io/tags/emacs/</link>
-      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
-    </image>
     <ttl>1440</ttl>
-    <generator>After Dark 10.3.2 (Hugo 0.145.0)</generator>
+    <generator>After Dark 10.3.2 (Hugo 0.147.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; 2025 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Tue, 11 Mar 2025 09:55:09 UT</lastBuildDate>
+    <lastBuildDate>Fri, 23 May 2025 10:11:54 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caddy bye bye</title>
+      <link>https://greatsilence.github.io/post/20250523t115657--caddy-bye-bye__emacs/</link>
+      <pubDate>Fri, 23 May 2025 09:56:00 UT</pubDate>
+      <dc:creator>[Matthias Fuchs]</dc:creator>
+      <guid>https://greatsilence.github.io/post/20250523t115657--caddy-bye-bye__emacs/</guid>
+      <description>Erinnerungen Unser VW Caddy hat seinen Dienst getan und darf endlich in seinen wohlverdienten Ruhestand gehen. Dieses Auto hat uns die letzten beinahe 10 Jahren treu begleitet. Welch schöne Erinnerungen verbinden wir als Familie mit ihm!
+Es hat uns so gut wie nie in Stich gelassen. Camping in Italien, Urlaub in Frankreich, mehrmals die kompletten Westalpen umrundet, Besuch der Schwiegereltern in der Nähe von Paris, Col de l&rsquo;Arzelier, Triest, Genua, Nizza, Marseille, Wien, Marchegg, Mariazell, etc, &hellip;
+</description>
+      <category domain="https://greatsilence.github.io/categories/privat">Privat</category>
+      <content:encoded><![CDATA[Erinnerungen Unser VW Caddy hat seinen Dienst getan und darf endlich in seinen wohlverdienten Ruhestand gehen. Dieses Auto hat uns die letzten beinahe 10 Jahren treu begleitet. Welch schöne Erinnerungen verbinden wir als Familie mit ihm!
+Es hat uns so gut wie nie in Stich gelassen. Camping in Italien, Urlaub in Frankreich, mehrmals die kompletten Westalpen umrundet, Besuch der Schwiegereltern in der Nähe von Paris, Col de l&rsquo;Arzelier, Triest, Genua, Nizza, Marseille, Wien, Marchegg, Mariazell, etc, &hellip;
+[Fotos einfügen]
+Kosten Die letzten Services wurden immer teurer; wir mussten jedes Mal zwischen 1000 und 1700 Euro bezahlen. So auch dieses Mal; deshalb haben wir uns doch mit ein bisschen Wehmut dazu entscheiden müssen, den Caddy zu verkaufen (950 Euro).
+Neues Auto Seit dem 31.10.2024 steht ein neues Auto in der Garage: Dacia Duster Hybrid, BJ. 2024. Das Auto ist so cool; macht richtig Freude und ist wunderschön. Dem Hybridantrieb gegenüber war ich lange sehr skeptisch eingestellt. Doch der Verkäufer von Renault / Dacia in Straßwalchen hat ganze Arbeit geleistet.
+[Fotos einfügen]
+Ich habe spürbar Geld und Treibstoff gespart.
+]]></content:encoded>
+    </item>
     <item>
       <title>Doom Emacs vs Spacemacs vs Emacs</title>
       <link>https://greatsilence.github.io/post/20231023t102416--doom-emacs-vs-spacemacs-vs-emacs__emacs/</link>

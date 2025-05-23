@@ -4,32 +4,27 @@
     <title>Tags on After Dark</title>
     <link>https://greatsilence.github.io/tags/</link>
     <description>Recent content in Tags on After Dark</description>
-    <image>
-      <title>Tags on After Dark</title>
-      <link>https://greatsilence.github.io/tags/</link>
-      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
-    </image>
     <ttl>1440</ttl>
-    <generator>After Dark 10.3.2 (Hugo 0.145.0)</generator>
+    <generator>After Dark 10.3.2 (Hugo 0.147.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; 2025 Matthias Fuchs. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Tue, 11 Mar 2025 09:55:09 UT</lastBuildDate>
+    <lastBuildDate>Fri, 23 May 2025 10:11:54 UT</lastBuildDate>
     <atom:link href="https://greatsilence.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emacs</title>
+      <link>https://greatsilence.github.io/tags/emacs/</link>
+      <pubDate>Fri, 23 May 2025 09:56:00 UT</pubDate>
+      <dc:creator>Matthias Fuchs</dc:creator>
+      <guid>https://greatsilence.github.io/tags/emacs/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
     <item>
       <title>Hugo</title>
       <link>https://greatsilence.github.io/tags/hugo/</link>
       <pubDate>Tue, 11 Mar 2025 08:20:00 UT</pubDate>
       <dc:creator>Matthias Fuchs</dc:creator>
       <guid>https://greatsilence.github.io/tags/hugo/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Emacs</title>
-      <link>https://greatsilence.github.io/tags/emacs/</link>
-      <pubDate>Mon, 23 Oct 2023 08:24:00 UT</pubDate>
-      <dc:creator>Matthias Fuchs</dc:creator>
-      <guid>https://greatsilence.github.io/tags/emacs/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
